@@ -18,7 +18,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 ![Scenario](images/scenario_appgyver.png)
 
 
-## Create a Build Apps Project <a name="buildapps"></a>
+## Create a Dev Space <a name="buildapps"></a>
 
 1. From [SAP Build Lobby](https://workshop-sap-build-9w562br3.eu10.build.cloud.sap/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 
