@@ -6,12 +6,12 @@
 
 ## CAP Project Creation<a name="project"></a>
 
-1. After Creating Dev Space You’ll be redirected to your newly created SAP Business Application Studio Dev Space. Click on <b>Start Template</b> as shown below.  <br>![Start Template](images/08.png)<br>
+1. After Creating Dev Space You’ll be redirected to your newly created SAP Business Application Studio Dev Space. Click on <b>Start Template</b> as shown below. <br><br>![Start Template](images/08.png)<br>
 
 2. Select <b>CAP Project</b> from given template and click on <b>Start.</b><br>![Start Template](images/10.png)<br>
 
 3. Enter your Project name as shown below, and choose <b>Node.js</b> from runtime.<br>
-Select all check boxes given below and click on <b>Finish</b> button.<br>![Start Template](images/11.png)<br>
+Select all check boxes given below and click on <b>Finish</b> button. <br><br>![Start Template](images/11.png)<br>
 
 ## CAP Table Creation<a name="table"></a>
 
