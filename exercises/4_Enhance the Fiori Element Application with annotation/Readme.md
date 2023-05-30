@@ -1,7 +1,12 @@
 ## Table of Contents
  - [Overview](#overview)
+<<<<<<< HEAD
+ - [](#modifyProject)
+ - [Create an API Trigger for Process](#configureInputs)
+=======
  - [Create Destination](#destination)
  - [Create SAP Fiori Application](#FioriApp)
+>>>>>>> 23bad110d52f5ea63d01f732254339010949e5e5
  - [Map API parameters to Process parameters](#mapParameters)
  - [Summary](#summary)
 
