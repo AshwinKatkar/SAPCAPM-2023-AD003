@@ -42,14 +42,14 @@ Click on <b>Next</b> button.
 Select Destination name which you have created, and click on <b>Next</b> button.
 <br>![Image](./images/08.png)
 
-8. Write semantic object as your <b>Module name.</b> <br>
-Write <b>manage</b> in Action field. <br>
-Write <b> Application title</b> in title field.<br>
+8. Write semantic object as your <b>Module name.</b> <
+Write <b>manage</b> in Action field. 
+Write <b> Application title</b> in title field.
 click on <b>Finish button.</b>
 <br>![Image](./images/09.png)
 
-8. Now <b>SAP Fiori Elements-Based UI</b> is created.<br>
-Then, Select <b>Preview Application</b>.<br>
+8. Now <b>SAP Fiori Elements-Based UI</b> is created.
+Then, Select <b>Preview Application</b>.
 Then you will get pop-up message, click on <b>Open in new Tab</b> as shown in below.
 <br>![Image](./images/13.png)
 <br>
