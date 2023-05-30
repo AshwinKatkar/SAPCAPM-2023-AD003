@@ -32,10 +32,10 @@ SAP Cloud Foundry Environment: Verify that you have access to the SAP Cloud Foun
 
 ## Exercises
 
-- [Exercise 1 - Setup BAS and Create SPACE](/exercises/1_Setup BAS and Create SPACE)
-- [Exercise 2 - Create CAP Based Application](/exercises/2_Create CAP Based Application)
-- [Exercise 3 - Create an SAP Fiori Elements-Based UI](/exercises/3_Create an SAP Fiori Elements-Based UI)
-- [Exercise 4 - Enhance the Fiori Element Application with annotation](/exercises/4_Enhance the Fiori Element Application with annotation)
+- [Exercise 1 - Setup BAS and Create SPACE](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/)
+- [Exercise 2 - Create CAP Based Application](/exercises/2_Create%20CAP%20Based%20Application/)
+- [Exercise 3 - Create an SAP Fiori Elements-Based UI](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/)
+- [Exercise 4 - Enhance the Fiori Element Application with annotation](/exercises/4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/)
 
 ## How to obtain support 
 
