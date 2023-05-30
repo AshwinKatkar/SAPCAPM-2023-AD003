@@ -37,7 +37,7 @@ SAP Cloud Foundry Environment: Verify that you have access to the SAP Cloud Foun
 - [Exercise 3 - Create an SAP Fiori Elements-Based UI](/exercises/3_Create an SAP Fiori Elements-Based UI)
 - [Exercise 4 - Enhance the Fiori Element Application with annotation](/exercises/4_Enhance the Fiori Element Application with annotation)
 
-## How to obtain support
+## How to obtain support 
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
