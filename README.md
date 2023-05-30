@@ -31,7 +31,7 @@ SAP Cloud Foundry Environment: Verify that you have access to the SAP Cloud Foun
 
 ## Exercises
 
-- [Exercise 1 - Setup BAS and Create SPACE](/exercises/1_CreateAppGyverProject)
+- [Exercise 1 - Setup BAS and Create SPACE](/exercises/1_Setup BAS and Create SPACE)
 - [Exercise 2 - Create CAP Based Application](/exercises/2_InstallDesktopAgent3)
 - [Exercise 3 - Create an SAP Fiori Elements-Based UI](/exercises/3_ImportSampleProcess)
 - [Exercise 4 - Enhance the Fiori Element Application with annotation](/exercises/4_TriggerProcess)
