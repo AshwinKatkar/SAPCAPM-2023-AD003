@@ -2,7 +2,7 @@
 ## Table of Contents
   
 - [Overview](#overview)
-- [Create New Project](#buildapps)
+- [Create Dev Space](#devspace)
 - [Create UI](#UI)
 - [Data Connection](#data)
 - [Logic for Upload button](#upload)
@@ -18,7 +18,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 ![Scenario](images/01.png)
 
 
-## Create a Dev Space <a name="buildapps"></a>
+## Create a Dev Space <a name="devspace"></a>
 
 1. From [SAP Build Lobby](https://workshop-sap-build-9w562br3.eu10.build.cloud.sap/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 
