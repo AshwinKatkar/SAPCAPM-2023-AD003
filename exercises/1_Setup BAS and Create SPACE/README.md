@@ -17,19 +17,19 @@ In this exercise, you will Create  your Dev Space in SAP BAS (Business Applicati
 1. From [Welcome to workshop-SAP Build](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html), click on <b>Crave Workshop</b>.<br>![Crave Workshop](images/01.png)
 
 
-2. You will be redirected to <b>Login Page</b>, <br> you need to enter your Login Credentials, click on <b>Continue</b>.<br>![Login Page](images/02.png)<br>
+2. You will be redirected to <b>Login Page</b>, <br> you need to enter your Login Credentials, click on <b>Continue</b>.<br><br>![Login Page](images/02.png)<br>
 
 3. A new tab opens. If you have not created a dev space ,the welcome page for SAP Business Application Studio loads and click on <b>Create Dev Space</b><br>![Login Page](images/03.png)<br>
 
-4. Give name to Dev Space. and then click on <b>Create Dev Space</b> at bottom left of page.<br>![Create Dev Space](images/04.png)<br>
+4. Give name to Dev Space. and then click on <b>Create Dev Space</b> at bottom left of page.<br> <br>![Create Dev Space](images/04.png)<br>
 
-5. Select <b>Full Stack Cloud Application</b> as shown below and  select all <b>SAP additional extension. </b> <br>![Create Dev Space](images/05.png)<br>
+5. Select <b>Full Stack Cloud Application</b> as shown below and  select all <b>SAP additional extension. </b> <br><br>![Create Dev Space](images/05.png)<br>
 
-6. After Creating Dev Space Click on Run Button as shown below.  <br>![Create Dev Space](images/06.png)<br>
+6. After Creating Dev Space Click on Run Button as shown below.  <br><br>![Create Dev Space](images/06.png)<br>
 
-7. As a Dev Space comes in running state click on Dev Space Name.<br>![Create Dev Space](images/07.png)<br>
+7. As a Dev Space comes in running state click on Dev Space Name.<br><br>![Create Dev Space](images/07.png)<br>
 
-8. You’ll be redirected to your newly created SAP Business Application Studio Dev Space.<br>![Create Dev Space](images/08.png)<br>
+8. You’ll be redirected to your newly created SAP Business Application Studio Dev Space.<br><br>![Create Dev Space](images/08.png)<br>
 
 
 

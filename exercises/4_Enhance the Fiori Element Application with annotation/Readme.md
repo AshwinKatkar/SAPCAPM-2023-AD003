@@ -1,6 +1,6 @@
 ## Table of Contents
  - [Overview](#overview)
- - [Modify the Project](#modifyProject)
+ - [](#modifyProject)
  - [Create an API Trigger for Process](#configureInputs)
  - [Map API parameters to Process parameters](#mapParameters)
  - [Summary](#summary)
