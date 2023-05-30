@@ -1,33 +1,40 @@
-# AD002 - Build Robust Apps Enhanced with Process Automation and Low-Code Tooling
+# AD003 - Build Web Api To Perform CRUD Operation 
 
 ## Description
 
-This repository contains the material for the Crave Hands-On session called [AD002 - Build Robust Apps Enhanced with Process Automation and Low-Code Tooling]
+This repository contains the material for the Crave Hands-On session called [AD003 - Build Web Api To Perform CRUD Operation]
+
 
 ## Overview
 
-This session covers how to build apps, processes with workflows, and extract invoice data with BOTS. Leverage pre-built sample content package and enhance the sample process to integrate with Apps. Finally, test your integrated scenario.
+This session covers how to build Web Api , how to setup SAP BAS (Business Application Studio) project  selecting the appropriate template, and  how to configuring project settings for development.also will see API CRUD (Create, Read, Update, Delete) operations to interact with data in SAP BAS projects. it allowing developers to easily create, retrieve, update, and delete data using RESTful APIs. These operations enable efficient data management and manipulation within the SAP BAS environment.
 
-Scenario: Invoice Approval with SAP Build Apps & SAP Build Process Automation
+Scenario:  Build Web Api with SAP BAS (Business Application Studio)
 
 
   ![Overview](exercises/4_TriggerProcess/images/Overview.png)
 
 ## Requirements
 
-There are no dedicated requirement for this exercise. But in case you want to gain some further knowledge around SAP Build Process Automation, please feel free to attend these virtual SAP TechEd workshops:
-- Learn how to build a process, decisions and RPA bots from scratch in [AD182 - Build Process Automations and Extensions to SAP Solutions](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198036950001EHbd)
-- Learn how to build a process, decisions and extract the data from documents with RPA bots in [AI180 - Automate Your Invoice Processing with SAP Build Process Automation](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198041428001ExKO)
+SAP BAS Account: You should have a valid SAP BAS account. You can sign up for an account on the SAP website if you don't have one already.
+
+System Requirements: Verify that your system meets the minimum requirements to run SAP BAS. This includes having a compatible operating system (such as Windows, macOS, or Linux) and a supported web browser (such as Google Chrome or Mozilla Firefox).
+
+Internet Connectivity: Ensure that you have a stable internet connection since SAP BAS is a cloud-based development environment.
+
+SAP Cloud Platform Account: SAP BAS is typically used with the SAP Cloud Platform (SCP). You will need an SCP account to deploy and test your applications. You can sign up for an SCP account on the SAP Cloud Platform website.
+
+SAP Cloud Foundry Environment: Verify that you have access to the SAP Cloud Foundry environment within the SAP Cloud Platform. This is required to deploy and run applications developed in SAP BAS.
+
+- Learn how to Setup BAS and Create SPACE in  [ -  SAP BAS (Business Application Studio)](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198036950001EHbd)
+- Create CAP Based Application [- SAP BAS (Business Application Studio)](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198041428001ExKO)
 
 ## Exercises
 
-- [Exercise 1 - Create SAP Build Apps Project](/exercises/1_CreateAppGyverProject)
-- [Exercise 2 - Install Desktop Agent 3](/exercises/2_InstallDesktopAgent3)
-- [Exercise 3 - Import Sample Business Process From SAP Build Process Automation Store](/exercises/3_ImportSampleProcess)
-- [Exercise 4 - Modify the Process](/exercises/4_TriggerProcess)
-- [Exercise 5 - Modify Automation](/exercises/5_ModifyAutomation)
-- [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
-- [Exercise 7 - Test SAP Build Apps and Business Process](/exercises/7_TestingEndToEndScenario)
+- [Exercise 1 - Setup BAS and Create SPACE](/exercises/1_CreateAppGyverProject)
+- [Exercise 2 - Create CAP Based Application](/exercises/2_InstallDesktopAgent3)
+- [Exercise 3 - Create an SAP Fiori Elements-Based UI](/exercises/3_ImportSampleProcess)
+- [Exercise 4 - Enhance the Fiori Element Application with annotation](/exercises/4_TriggerProcess)
 
 ## How to obtain support
 
