@@ -28,7 +28,7 @@ SAP Cloud Foundry Environment: Verify that you have access to the SAP Cloud Foun
 
 - Learn how to Setup BAS and Create SPACE in  [ -  SAP BAS (Business Application Studio)](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html)
 
-- Create CAP Based Application [- SAP BAS (Business Application Studio)](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html)
+- Create CAP Based Application [- SAP BAS (Business Application Studio)](/exercises/2_Create CAP Based Application)
 
 ## Exercises
 
