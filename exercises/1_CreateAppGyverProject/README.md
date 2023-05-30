@@ -15,12 +15,12 @@
 
 In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
-![Scenario](images/01.png)
 
 
 ## Create a Dev Space <a name="devspace"></a>
 
-1. From [Welcome to workshop-SAP Build](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html), click on <b>Crave Workshop</b>.<br>
+1. From [Welcome to workshop-SAP Build](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html), click on <b>Crave Workshop</b>.<br>![Crave Workshop](images/01.png)
+
 
 2. You will be redirected to <b>Login Page</b>, <br> you need to enter your Login Credentials <br>![Login Page](images/02.png)<br>
 
