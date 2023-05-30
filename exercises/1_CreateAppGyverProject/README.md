@@ -20,17 +20,10 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ## Create a Dev Space <a name="devspace"></a>
 
-1. From [SAP Build Lobby](https://workshop-sap-build-9w562br3.eu10.build.cloud.sap/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
+1. From [Welcome to workshop-SAP Build](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html), click on <b>Crave Workshop</b>.<br>
 
-   | Username | Password    |
-    | :------------- | :------------- |
-    | AD002_XXX <br> where XXX is the user number <br> like AD002_000, AD002_001 etc.       | Workshop@2023     |
-    
-<br>![Create the project](images/01a.png)
-<br>![Create the project](images/01b.png)
+2. You will be redirected to <b>Login Page</b>, <br> you need to enter your Login Credentials <br>![Login Page](images/02.png)<br>
 
-2. Under <b>Project Name</b>, enter <b><i>"Invoice AD002-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD002-004"</i>.<br>Click on <b>Create</b> to start building your application.
-<br><br>![Name the project](images/01c.png)
 
 
 ## Create UI <a name="UI"></a>
