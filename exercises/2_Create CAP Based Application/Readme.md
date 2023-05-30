@@ -8,9 +8,9 @@
 
 ## CAP Project Creation<a name="project"></a>
 
-The setup program is provided in the form of an industry standard Windows MSI installer.
 
-1. After Creating Dev Space Click on <b>Run Button</b> as shown below.  <br>![Create Dev Space](images/06.png)<br>
+
+1. After Creating Dev Space You’ll be redirected to your newly created SAP Business Application Studio Dev Space. Click on <b>Start Template</b> as shown below.  <br>![Start Template](images/08.png)<br>
 
 
 ## Install the Desktop Agent 3 <a name="install"></a>
