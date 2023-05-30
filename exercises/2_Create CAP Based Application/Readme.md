@@ -2,7 +2,7 @@
 - [CAP Project Creation](#project)
 - [Table Creation](#table)
 - [Install dependencies](#install)
-- [Database connection](#db)
+- [ Database connection and project deployment](#db)
 - [Summary](#summary)
 
 
@@ -251,7 +251,7 @@ cds deploy --to hana
 <br><br>![Start Template](images/22.png)<br>
 
 
-## Database connection <a name="db"></a>
+## Database connection and project deployment <a name="db"></a>
 
 1. Click on highlighted section and select <b>Run Configuration</b> <br><br>![Start Template](images/23.png)<br>
 
