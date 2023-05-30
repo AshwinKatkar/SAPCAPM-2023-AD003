@@ -23,7 +23,7 @@ In this exercise you will learn:
 2. Click on <b>Connevtivity</b> and select <b>Destination</b> as given below<br><br>
     ![01](./images//01.png)
 
-3. Click on <b>New Destination</b>.<br><br>
+3. Click on <b>New Destination</b>.<br>
     ![02](./images//02.png)
 
 4. Write IMS_Workshop in <b>Name</b> field. In type select <b>HTTP</b>. In <b>URL</b> field paste your CAPM project service link. Keep <b>Proxy Type</b> <b>Internet</b>, Authentication field select <b>No Authentication</b>.<br>
@@ -32,18 +32,18 @@ After this select <b>New Property</b>
 - WebIDEEnabled <b>-> true</b>
 - WebIDEUsage <b>-> odata_gen</b>
 Click on <b>Save </b>button.
-<br><br>
+<br>
 
 ![03](./images//03.png)
 
 
 5. Click on <b>Check conection</b>
-<br><br>
+<br>
 
 ![03](./images//06.png)
 
 6. We successfully created Destination, and click on <b>Close</b>.
-<br><br>
+<br>
 
 ![03](./images//07.png)
 
@@ -52,12 +52,12 @@ Click on <b>Save </b>button.
 1. Go to your Bussiness Application Studio (BAS).
 
 2. Select <b>Start from template.</b>
-<br><br>
+<br>
 
 ![03](./images//08.png)
 
 2. Select <b>SAP Fiori Application</b> and click on <b>Start</b>.
-<br><br>
+<br>
 
 ![03](./images//04.png)
 
@@ -67,12 +67,46 @@ Click on <b>Save </b>button.
 ![03](./images//05.png)
 
 4. Select <b>onnect to a system</b>in <b>Data Source</b>Select <b>IMS_Workshop</b>in <b>System</b>and write <b>/catlog</b> in <b>Service path</b> and click on <b>Next</b>.
-<br><br>
+<br>
 
-![03](./images//05.png)
+![03](./images//09.png)
+
+5. Select <b>Incidents</b>in <b>Main Entity</b> and click on <b>Next</b>.
+<br>
+
+![03](./images//10.png)
+
+6. Write  project name in<b>Module name</b>.<br>
+- note: Module name should be <b>lowercase</b> and without space.<br>
+and choose the option as shown in below and click on <b>Next</b>.
+<br>
+
+![03](./images//11.png)
+<br>
+
+![03](./images//12.png)
+
+7. Plese choose target as <b>Cloud Foundry</b> and choose destination as shown below and click on <b>Finish</b>.
+<br>
+
+![03](./images//13.png)
+
+8. We successfully created <b>SAP Fiori Application</b>.<br>
+Click on <b>Preview Application</b>.
+<br>
+
+![03](./images//15.png)
+
+8. Select the <b>start-noflp fiori run</b> option from the list, as shown given below.
+<br>
+
+![03](./images//16.png)
+
+8. Here we can see the  SAP Fiori Application. 
+<br>
+
+![03](./images//17.png)
 
 ## Summary <a name="summary"></a>
 
-You have now created API Triggers for the Business Process.
-
-Continue to - [Exercise 5 - Modify the Automation](../5_ModifyAutomation/Readme.md)
+You have now created SAP Fiori Application using destination.
