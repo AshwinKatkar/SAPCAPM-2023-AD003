@@ -42,4 +42,4 @@ You have Created Dev Space and completed the above steps.
 
 ![Summary](images/08.png)
 
-Continue to - [Exercise 2 - Create CAP Based Application](../2_InstallDesktopAgent3/Readme.md) and get started with SAP Build Process Automation.
+Continue to - [Exercise 2 - Create CAP Based Application](../2_Create%20CAP%20Based%20Application//Readme.md) and get started with SAP Build Process Automation.
