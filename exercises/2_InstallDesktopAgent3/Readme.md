@@ -10,7 +10,7 @@
 
 
 
-1. After Creating Dev Space You’ll be redirected to your newly created SAP Business Application Studio Dev Space. Click on <b>Start Template</b> as shown below.  <br>![Start Template](images/06.png)<br>
+1. After Creating Dev Space You’ll be redirected to your newly created SAP Business Application Studio Dev Space. Click on <b>Start Template</b> as shown below.  <br>![Start Template](images/08.png)<br>
 
 
 ## Install the Desktop Agent 3 <a name="install"></a>
