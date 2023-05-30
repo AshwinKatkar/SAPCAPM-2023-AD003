@@ -30,10 +30,10 @@ Then select oData Service and click on <b>Next</b> button.<br>
 Click on <b>Next</b> button.
 <br>![Image](./images/05.png)
 
-6. Write module name as your project name.<br>
-note : module name should be in small letter and without space.<br>
-Write a Application Title.<br>
-Choose radio button as shown in below.<br>
+6. Write module name as your project name.<
+note : module name should be in small letter and without space.
+Write a Application Title.
+Choose radio button as shown in below.<
 Click on <b>Next</b> button.
 <br>![Image](./images/06.png)
 <br>![Image](./images/07.png)
