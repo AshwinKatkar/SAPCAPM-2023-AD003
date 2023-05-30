@@ -21,8 +21,8 @@ then select <b>View </b> from menu and then select <b>Command Palatte. </b><br>!
 3. Now Template Wizard open.<br>
 Select <b>List Report Page.</b> and click on<b> Next Button.</b>  <br>![Image](./images/03.png)
 
-4. Select Data Source as <b>Use a Local CAP Project</b> <br>
-Choose your CAP Project which you have created earlier.<br>
+4. Select Data Source as <b>Use a Local CAP Project</b>
+Choose your CAP Project which you have created earlier.
 Then select oData Service and click on <b>Next</b> button.<br>
 ![Image](./images/04.png)
 
