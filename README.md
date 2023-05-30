@@ -28,14 +28,14 @@ SAP Cloud Foundry Environment: Verify that you have access to the SAP Cloud Foun
 
 - Learn how to Setup BAS and Create SPACE in  [ -  SAP BAS (Business Application Studio)](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html)
 
-- Create CAP Based Application [- SAP BAS (Business Application Studio)](/exercises/2_Create CAP Based Application)
+- Create CAP Based Application [- SAP BAS (Business Application Studio)](./exercises/2_Create%20CAP%20Based%20Application/Readme.md)
 
 ## Exercises
 
-- [Exercise 1 - Setup BAS and Create SPACE](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/)
-- [Exercise 2 - Create CAP Based Application](/exercises/2_Create%20CAP%20Based%20Application/)
-- [Exercise 3 - Create an SAP Fiori Elements-Based UI](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/)
-- [Exercise 4 - Enhance the Fiori Element Application with annotation](/exercises/4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/)
+- [Exercise 1 - Setup BAS and Create SPACE](./exercises/1_Setup%20BAS%20and%20Create%20SPACE/README.md)
+- [Exercise 2 - Create CAP Based Application](./exercises/2_Create%20CAP%20Based%20Application/Readme.md)
+- [Exercise 3 - Create an SAP Fiori Elements-Based UI](./exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/Readme.md)
+- [Exercise 4 - Enhance the Fiori Element Application with annotation](./exercises/4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/Readme.md)
 
 ## How to obtain support 
 
