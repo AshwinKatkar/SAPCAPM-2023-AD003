@@ -14,7 +14,7 @@ In this exercise, you will Create  your Dev Space in SAP BAS (Business Applicati
 
 
 ## Create Dev Space <a name="devspace"></a>
-1. From [Welcome to workshop-SAP Build](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html), click on <b>Crave Workshop</b>.<br>![Crave Workshop](images/01.png)
+1. From [Welcome to workshop-SAP Build](https://workshop-sap-build-9w562br3.eu10cf.applicationstudio.cloud.sap/index.html), click on <b>Crave Workshop</b>.<br><br>![Crave Workshop](images/01.png)
 
 
 2. You will be redirected to <b>Login Page</b>, <br> you need to enter your Login Credentials, click on <b>Continue</b>.<br><br>![Login Page](images/02.png)<br>
