@@ -16,22 +16,24 @@ Select all check boxes given below and click on <b>Finish</b> button.<br>![Start
 ## CAP Table Creation<a name="table"></a>
 
 1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> here we can write code to create a table as shown in below <br>![Start Template](images/12.png)<br>, here we use entity keyword to create a table followed by table name Incident <br>
-<p>namespace my.Incident_Management;<br>
-using {managed} from '@sap/cds/common';<br>
-entity Incidents : managed {<br>
-  key ID              : UUID; //@(Core.Computed : true);<br>
-      title           : String(50);<br>
-      category        : String(50);<br>
-      priority        : String(50);<br>
-      Incident_Status : String(50);<br>
-      location        : String(50);<br>
-      observation     : String(50);<br>
-      Address         : String(100);<br>
-      Date_Time       : DateTime @cds.on.insert: $now;<br>
+<br>
+<p>
+```namespace my.Incident_Management;
+using {managed} from '@sap/cds/common';
+entity Incidents : managed {
+  key ID              : UUID; //@(Core.Computed : true);
+      title           : String(50);
+      category        : String(50);
+      priority        : String(50);
+      Incident_Status : String(50);
+      location        : String(50);
+      observation     : String(50);
+      Address         : String(100);
+      Date_Time       : DateTime @cds.on.insert: $now;
+
+```
 }<br>
-</p>
-
-
+</p><br>
 
 ## Summary <a name="summary"></a>
 
