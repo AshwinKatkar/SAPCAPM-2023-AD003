@@ -17,8 +17,8 @@ Select all check boxes given below and click on <b>Finish</b> button.<br>![Start
 
 1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> here we can write code to create a table as shown in below <br>![Start Template](images/12.png)<br>, here we use entity keyword to create a table followed by table name Incident <br>
 <br>
-<p>
-```namespace my.Incident_Management;
+```
+namespace my.Incident_Management;
 using {managed} from '@sap/cds/common';
 entity Incidents : managed {
   key ID              : UUID; //@(Core.Computed : true);
@@ -30,11 +30,9 @@ entity Incidents : managed {
       observation     : String(50);
       Address         : String(100);
       Date_Time       : DateTime @cds.on.insert: $now;
+}
 
 ```
-}<br>
-</p><br>
-
 ## Summary <a name="summary"></a>
 
 You have now successfully installed and configured your Desktop Agent 3.
