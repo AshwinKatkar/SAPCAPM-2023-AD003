@@ -3,10 +3,6 @@
   
 - [Overview](#overview)
 - [Create Dev Space](#devspace)
-- [Create UI](#UI)
-- [Data Connection](#data)
-- [Logic for Upload button](#upload)
-- [Logic for Submit Button](#submit)
 - [Summary](#Summary)
 
 
@@ -36,14 +32,14 @@ In this exercise, you will Create  your Dev Space in SAP BAS (Business Applicati
 8. You’ll be redirected to your newly created SAP Business Application Studio Dev Space.<br>![Create Dev Space](images/08.png)<br>
 
 
-## Create UI <a name="UI"></a>
+
 
 
 
 ## Summary <a name="summary"></a>
 
-You have build an app and completed the below steps.
+You have Created Dev Space and completed the above steps.
 
-![Summary](images/Scenario_summary.png)
+![Summary](images/08.png)
 
-Continue to - [Exercise 2 - Install and configure Desktop Agent 3](../2_InstallDesktopAgent3/Readme.md) and get started with SAP Build Process Automation.
+Continue to - [Exercise 2 - Create CAP Based Application](../2_InstallDesktopAgent3/Readme.md) and get started with SAP Build Process Automation.
