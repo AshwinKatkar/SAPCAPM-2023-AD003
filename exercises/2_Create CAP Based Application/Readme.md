@@ -209,17 +209,44 @@ annotate CatalogService.Incidents with @(
 
 1. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/17.png)<br>
 
-2. The terminal will open in the bottom right of the Business Application studio run <b>cf login</b>command and click enter <br><br>![Start Template](images/18.png)<br>
+2. The terminal will open in the bottom right of the Business Application studio run <b>cf login</b>command and click enter 
 
-3. Copy <b>https://api.cf.eu10-004.hana.ondemand.com/</b>text in <b>API end point</b> and click enter <br><br>![Start Template](images/33.png)<br>
+```
+cf login
+
+```
+ <br><br>![Start Template](images/18.png)<br>
+
+3. Copy <b>https://api.cf.eu10-004.hana.ondemand.com </b>text in <b>API end point</b> and click enter 
+```
+https://api.cf.eu10-004.hana.ondemand.com
+
+```
+<br><br>![Start Template](images/33.png)<br>
 
 4. Enter your  <b>Email</b> and  <b>Password</b> and click enter <br><br>![Start Template](images/19.png)<br>
 
-5. Run <b>npm install </b> command and click enter <br><br>![Start Template](images/20.png)<br>
+5. Run <b>npm install </b> command and click enter 
+```
+npm install
 
-6. After installation of npm packages run <b>cds build/all</b> command and click enter <br><br>![Start Template](images/21.png)<br>
+```
+<br><br>![Start Template](images/20.png)<br>
 
-7. After that run <b>cds deploy --to hana</b> command and click enter <br><br>![Start Template](images/22.png)<br>
+6. After installation of npm packages run <b>cds build/all</b> command and click enter 
+```
+cds build/all
+
+```
+<br><br>![Start Template](images/21.png)<br>
+
+7. After that run <b>cds deploy --to hana</b> command and click enter 
+
+```
+cds deploy --to hana
+
+```
+<br><br>![Start Template](images/22.png)<br>
 
 
 
