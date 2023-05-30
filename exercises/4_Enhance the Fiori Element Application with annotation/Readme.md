@@ -66,7 +66,7 @@ Click on <b>Save </b>button.
 
 ![03](./images//05.png)
 
-4. Select <b>onnect to a system</b>in <b>Data Source</b>Select <b>IMS_Workshop</b>in <b>System</b>and write <b>/catlog</b> in <b>Service path</b> and click on <b>Next</b>.
+4. Select <b>Connect to a system</b>in <b>Data Source</b>Select <b>IMS_Workshop</b>in <b>System</b>and write <b>/catlog</b> in <b>Service path</b> and click on <b>Next</b>.
 <br>
 
 ![03](./images//09.png)
