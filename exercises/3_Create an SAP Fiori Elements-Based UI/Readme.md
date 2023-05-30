@@ -8,14 +8,15 @@
 
 In this exercise, we will create UI from local CAP project for SAP Fiori Element.
 
-    ![Process](./images/12.png)
+![Image](./images/12.png)
 
 ## Create an SAP Fiori Elements-Based UI <a name="section2"></a>
 
 1. For Creating <b>SAP Fiori Elements-Based UI </b> click on menu tab as shown in below.<br>
 then select <b>View </b> from menu and then select <b>Command Palatte. </b><br>![Image](./images/01.png)
 
-2. Then search for <b> Application Generator </b>and select <b> Fiori:Open Application Generator </b><br>![Image](./images/02.png)
+2. Then search for <b> Application Generator </b>and select <b> Fiori:Open Application Generator </b><br>
+![Image](./images/02.png)
 
 3. Now Template Wizard open.<br>
 Select <b>List Report Page.</b> and click on<b> Next Button.</b>  <br>![Image](./images/03.png)
