@@ -16,8 +16,7 @@ In this exercise you will learn:
 
 ## Create Destination <a name="destination"></a>
 
-1. For Consuming CAPM service we need to create destination> [- Click here](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/af288739-c527-4b65-b66d-0ed5e4010878/subaccount/d8241bf3-e68c-436e-a074-ced1e90d59ed/subaccountoverview) to go to <b>SAP BTP Cockpit</b>. <br>
--   
+1. For Consuming CAPM service we need to create destination [ Click here ](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/af288739-c527-4b65-b66d-0ed5e4010878/subaccount/d8241bf3-e68c-436e-a074-ced1e90d59ed/subaccountoverview) to go to <b>SAP BTP Cockpit</b>. <br>
 <br>
 
 2. Click on <b>Connevtivity</b> and select <b>Destination</b> as given below<br><br>
