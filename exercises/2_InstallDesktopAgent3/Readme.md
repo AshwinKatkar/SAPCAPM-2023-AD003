@@ -1,31 +1,16 @@
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Download the Desktop Agent 3](#download)
+
+- [CAP Project Creation](#project)
 - [Install the Desktop Agent 3](#install)
 - [Register the Desktop Agent on your Tenant](#register)
 - [Add your agent](#add)
 - [Summary](#summary)
 
-### Overview <a name="overview"></a>
 
-The Desktop Agent 3 is an on-premise component of SAP Build Process Automation that is installed locally on user desktops. It executes automation projects that launch and run applications of various kind, read information from screens, enter data, click options, and process data.
-
-In this exercise you will learn:
-- How to install the Desktop Agent 3 to run your automations
-- How to register a tenant in the Desktop Agent 3
-
-
-## Download the Desktop Agent 3 <a name="download"></a>
+## CAP Project Creation<a name="project"></a>
 
 The setup program is provided in the form of an industry standard Windows MSI installer.
 
-1. You can install the Desktop Agent 3 from SAP Application Development. Navigate to the **Settings** on your tenant, choose **Agent Update** under **Agents**. Select **Go to Download Page** button.
-
-    ![07](./images/agent3-a031.png)
-
-2. Download the file.
-
-    ![07](./images/agent3-a004.png)
+1. After Creating Dev Space Click on <b>Run Button</b> as shown below.  <br>![Create Dev Space](images/06.png)<br>
 
 
 ## Install the Desktop Agent 3 <a name="install"></a>
