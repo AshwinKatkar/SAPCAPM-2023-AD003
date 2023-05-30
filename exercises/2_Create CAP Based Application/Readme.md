@@ -205,6 +205,8 @@ annotate CatalogService.Incidents with @(
 );
 
 ```
+<br>
+
 ## Install dependencies <a name="install"></a>
 
 1. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/17.png)<br>
