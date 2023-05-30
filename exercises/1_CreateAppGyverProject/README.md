@@ -15,7 +15,7 @@
 
 In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
-![Scenario](images/scenario_appgyver.png)
+![Scenario](images/01.png)
 
 
 ## Create a Dev Space <a name="buildapps"></a>
