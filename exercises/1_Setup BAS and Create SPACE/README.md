@@ -19,7 +19,7 @@ In this exercise, you will Create  your Dev Space in SAP BAS (Business Applicati
 
 2. You will be redirected to <b>Login Page</b>, <br> you need to enter your Login Credentials, click on <b>Continue</b>.<br><br>![Login Page](images/02.png)<br>
 
-3. A new tab opens. If you have not created a dev space ,the welcome page for SAP Business Application Studio loads and click on <b>Create Dev Space</b><br>![Login Page](images/03.png)<br>
+3. A new tab opens. If you have not created a dev space ,the welcome page for SAP Business Application Studio loads and click on <b>Create Dev Space</b><br><br>![Login Page](images/03.png)<br>
 
 4. Give name to Dev Space. and then click on <b>Create Dev Space</b> at bottom left of page.<br> <br>![Create Dev Space](images/04.png)<br>
 
