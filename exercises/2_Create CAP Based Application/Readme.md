@@ -268,7 +268,7 @@ cds deploy --to hana
 
 6. After Deployment on project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
 
-7. Copy Service link and paste in new tab of browser and click enter  <br><br>![Start Template](images/32.png)<br>
+7. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
 
 ## Summary <a name="summary"></a>
 
