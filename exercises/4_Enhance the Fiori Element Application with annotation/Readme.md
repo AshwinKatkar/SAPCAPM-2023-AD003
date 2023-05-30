@@ -23,7 +23,7 @@ In this exercise you will learn:
 2. Click on <b>Connevtivity</b> and select <b>Destination</b> as given below<br><br>
     ![01](./images//01.png)
 
-3. Click on <b>New Destination</b>.<br>
+3. Click on <b>New Destination</b>.<br><br>
     ![02](./images//02.png)
 
 4. Write IMS_Workshop in <b>Name</b> field. In type select <b>HTTP</b>. In <b>URL</b> field paste your CAPM project service link. Keep <b>Proxy Type</b> <b>Internet</b>, Authentication field select <b>No Authentication</b>.<br>
