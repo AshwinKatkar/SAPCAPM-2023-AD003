@@ -2,6 +2,7 @@
 - [CAP Project Creation](#project)
 - [Table Creation](#table)
 - [Install dependencies](#install)
+- [ Database connection and project deployment](#db)
 - [Summary](#summary)
 
 
@@ -211,7 +212,7 @@ annotate CatalogService.Incidents with @(
 
 1. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/17.png)<br>
 
-2. The terminal will open in the bottom right of the Business Application studio run <b>cf login</b>command and click enter 
+2. The terminal will open in the bottom right of the Business Application studio run <b>cf login</b>command and press enter
 
 ```
 cf login
@@ -219,31 +220,30 @@ cf login
 ```
  <br><br>![Start Template](images/18.png)<br>
 
-3. Copy <b>https://api.cf.eu10-004.hana.ondemand.com </b>text in <b>API end point</b> and click enter 
+3. Copy <b>https://api.cf.eu10-004.hana.ondemand.com </b>text in <b>API end point</b> and press enter 
 ```
 https://api.cf.eu10-004.hana.ondemand.com
 
 ```
 <br><br>![Start Template](images/33.png)<br>
 
-4. Enter your  <b>Email</b> and  <b>Password</b> and click enter <br><br>![Start Template](images/19.png)<br>
+4. Enter your  <b>Email</b> and  <b>Password</b> and press enter <br><br>![Start Template](images/19.png)<br>
 
-5. Run <b>npm install </b> command and click enter 
+5. Run <b>npm install </b> command and press enter 
 ```
 npm install
 
 ```
 <br><br>![Start Template](images/20.png)<br>
 
-6. After installation of npm packages run <b>cds build/all</b> command and click enter 
+6. After installation of npm packages run <b>cds build/all</b> command and press enter  
 ```
 cds build/all
 
 ```
 <br><br>![Start Template](images/21.png)<br>
 
-7. After that run <b>cds deploy --to hana</b> command and click enter 
-
+7. After that run <b>cds deploy --to hana</b> command and press enter
 ```
 cds deploy --to hana
 
@@ -251,20 +251,27 @@ cds deploy --to hana
 <br><br>![Start Template](images/22.png)<br>
 
 
+## Database connection and project deployment <a name="db"></a>
 
+1. Click on highlighted section and select <b>Run Configuration</b> <br><br>![Start Template](images/23.png)<br>
 
+2. Click on <b>Create Configuration</b> <br><br>![Start Template](images/24.png)<br>
 
+3. After that you will get pop up Click on that and press enter <br><br>![Start Template](images/25.png)<br>
 
+4. Now you can able to see Created Database Configuration open that folder and click on  bind <b>db-hana</b> <br><br>![Start Template](images/25.png)<br>
 
+5. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](images/27.png)<br> 
 
+5. On left side <b>mta archives</b> folder will be created open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>!
+[Start Template](images/28.png)<br> <br><br>![Start Template](images/29.png)<br> 
 
+6. After Deployment on project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
 
-
-
-
+7. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
 
 ## Summary <a name="summary"></a>
 
-You have now successfully installed and configured your Desktop Agent 3.
+You have now successfully Created SAP BTP CAP project .
 
-Continue to - [Exercise 3 - Import Sample Process from SAP Build Process Automation Store](../3_ImportSampleProcess/Readme.md)
+Continue to - [Exercise 3 -3_Create an SAP Fiori Elements-Based UI ](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/Readme.md) 

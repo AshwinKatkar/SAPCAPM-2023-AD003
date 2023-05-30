@@ -1,7 +1,12 @@
 ## Table of Contents
  - [Overview](#overview)
+<<<<<<< HEAD
  - [](#modifyProject)
  - [Create an API Trigger for Process](#configureInputs)
+=======
+ - [Create Destination](#destination)
+ - [Create SAP Fiori Application](#FioriApp)
+>>>>>>> 23bad110d52f5ea63d01f732254339010949e5e5
  - [Map API parameters to Process parameters](#mapParameters)
  - [Summary](#summary)
 
@@ -13,106 +18,62 @@ In this exercise you will learn:
 - How to modify the Process to map the other artifacts
 - How to map Automation and Process parameters
 
-## Modify the Project <a name="modifyProject"></a>
+## Create Destination <a name="destination"></a>
 
-1. Open your project **Invoice Approval Process AD002-XXX**. Choose process **Get Invoice Details**.
+1. For Consuming CAPM service we need to create destination> click on given link <br>
+-   [- Click here](https://emea.cockpit.btp.cloud.sap/cockpit/#/globalaccount/af288739-c527-4b65-b66d-0ed5e4010878/subaccount/d8241bf3-e68c-436e-a074-ced1e90d59ed/subaccountoverview)
+<br>
 
-    ![04](./images//005.png)
+2. Click on <b>Connevtivity</b> and select <b>Destination</b> as given below<br><br>
+    ![01](./images//01.png)
 
-2. Select the **Invoice Request Form**, choose the 3 dots and then **Remove** to delete the form.
+3. Click on <b>New Destination</b>.<br><br>
+    ![02](./images//02.png)
 
-    ![04](./images//006.png)
+4. Write IMS_Workshop in <b>Name</b> field. In type select <b>HTTP</b>. In <b>URL</b> field paste your CAPM project service link. Keep <b>Proxy Type</b> <b>Internet</b>, Authentication field select <b>No Authentication</b>.<br>
+After this select <b>New Property</b>
+- HTML5Dynamic Destination <b>-> true</b>
+- WebIDEEnabled <b>-> true</b>
+- WebIDEUsage <b>-> odata_gen</b>
+Click on <b>Save </b>button.
+<br><br>
 
-## Create an API Trigger for Process <a name="configureInputs"></a>
+![03](./images//03.png)
 
-1. In the process builder canvas, on the Trigger tile, select **+**. Then choose **API** and finally **New Api Trigger**.
 
-    ![04](./images//029.png)
+5. Click on <b>Check conection</b>
+<br><br>
 
-2. In the Create API Trigger window do the following:
+![03](./images//06.png)
 
-- Enter the name: API Trigger.
-- Choose **Create**.
+6. We successfully created Destination, and click on <b>Close</b>.
+<br><br>
 
-    > The identifier is generated based on the name.
+![03](./images//07.png)
 
-    ![04](./images//030.png)
+## Create SAP Fiori Application <a name="FioriApp"></a>
 
-3. Click on the **Canvas** in the background.
+1. Go to your Bussiness Application Studio (BAS).
 
-    ![04](./images/007b.png)
+2. Select <b>Start from template.</b>
+<br><br>
 
-4. In the **Process Details** side panel, choose **Inputs/Outputs** and then **Configure** to configure inputs.
+![03](./images//08.png)
 
-    ![04](./images/008a.png)
+2. Select <b>SAP Fiori Application</b> and click on <b>Start</b>.
+<br><br>
 
-5. Configure four inputs. Enter the following names and types:
+![03](./images//04.png)
 
-    |  **Name**    | **Type**
-    |  :------------- | :-------------
-    |  `fileName`       | string
-    |  `folderName`     | string
-    |  `employeeName`   | string
-    |  `employeeMail`   | string
-    |  `objectID`       | string
+3. Select <b>List Report Page</b> and click on <b>Next</b>.
+<br><br>
 
-    **Apply** changes.
+![03](./images//05.png)
 
-    ![04](./images/009a.png)
+4. Select <b>onnect to a system</b>in <b>Data Source</b>Select <b>IMS_Workshop</b>in <b>System</b>and write <b>/catlog</b> in <b>Service path</b> and click on <b>Next</b>.
+<br><br>
 
-    **(<b>add one more input objectID</b>)**
-    ![04](./images/009b.png)
-
-6. Select Project Properties.
-
-    ![04](./images/011b.png)
-
-7. Choose **Configure Agent Version** and select Agent version: Agent 3.13.XX and **Save**.
-
-    ![04](./images/Agent Setting 3.13.png)
-
-8. Choose **Dependencies** and select **Add Dependency**.
-
-    ![04](./images/013.png)
-     
-     Choose **Add a Business project dependency** 
-
-     ![04](./images/100a.png)
-
-9. Under **Package**, select **Invoice Approval Process - bhushan.dubey**.
-
-    ![04](./images/014.png)
-
-10. Select **Add** button.
-
-    ![04](./images/015.png)
-
-11. **Close** the Project Properties window.
-
-    ![04](./images/15b.png)
-
-     With this package you can automate some operations on your Document Management Service repository.
-
-## Map API parameters to Process parameters <a name="mapParameters"></a>
-
-1. Map parameters for **Invoice Approval form**. Select **Invoice Approval Form** and map:
-    - Under **General**, map **employeeMail** with Users.
-    ![05](./images/025.png)
-
-    - Under **Inputs**, map **Employee Name** with **employeeName**.
-    ![05](./images/025a.png)
-
-2. Map parameters for **Invoice Approval Notification Form**. Select **Invoice Approval Notification Form**, under **General**, map **employeeMail** with Users.
-
-    ![05](./images/027.png)
-
-3. Map parameters for **Invoice Reject Notification Form**. Select **Invoice Reject Notification Form**, under **General**, map **employeeMail** with Users.
-
-    ![05](./images/028.png)
-
-4. **Save** changes.
-
-    ![05](./images/026.png)
+![03](./images//05.png)
 
 ## Summary <a name="summary"></a>
 
