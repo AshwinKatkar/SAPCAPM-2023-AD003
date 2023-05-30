@@ -1,22 +1,18 @@
 ## Table of Contents
  - [Overview](#overview)
-<<<<<<< HEAD
- - [](#modifyProject)
- - [Create an API Trigger for Process](#configureInputs)
-=======
  - [Create Destination](#destination)
  - [Create SAP Fiori Application](#FioriApp)
->>>>>>> 23bad110d52f5ea63d01f732254339010949e5e5
- - [Map API parameters to Process parameters](#mapParameters)
+
+
  - [Summary](#summary)
 
 ### Overview <a name="overview"></a>
 
 In this exercise you will learn:
 
-- How to configure the API Call to Trigger Process
-- How to modify the Process to map the other artifacts
-- How to map Automation and Process parameters
+- How to create destination to consume CAPM service.
+- How to Create SAP Fiori Application.
+
 
 ## Create Destination <a name="destination"></a>
 
