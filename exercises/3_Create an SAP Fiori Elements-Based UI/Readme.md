@@ -30,10 +30,10 @@ Then select oData Service and click on <b>Next</b> button.<br>
 Click on <b>Next</b> button.
 <br>![Image](./images/05.png)
 
-6. Write module name as your project name.<
+6. Write module name as your project name.
 note : module name should be in small letter and without space.
 Write a Application Title.
-Choose radio button as shown in below.<
+Choose radio button as shown in below.
 Click on <b>Next</b> button.
 <br>![Image](./images/06.png)
 <br>![Image](./images/07.png)
@@ -42,7 +42,7 @@ Click on <b>Next</b> button.
 Select Destination name which you have created, and click on <b>Next</b> button.
 <br>![Image](./images/08.png)
 
-8. Write semantic object as your <b>Module name.</b> <
+8. Write semantic object as your <b>Module name.</b> 
 Write <b>manage</b> in Action field. 
 Write <b> Application title</b> in title field.
 click on <b>Finish button.</b>
