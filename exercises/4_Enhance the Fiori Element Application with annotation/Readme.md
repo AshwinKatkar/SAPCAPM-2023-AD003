@@ -27,9 +27,9 @@ In this exercise you will learn:
 
 4. Write IMS_Workshop in <b>Name</b> field. In type select <b>HTTP</b>. In <b>URL</b> field paste your CAPM project service link. Keep <b>Proxy Type</b> <b>Internet</b>, Authentication field select <b>No Authentication</b>.<br>
 After this select <b>New Property</b>
-- HTML5Dynamic Destination <b>true</b>
-- WebIDEEnabled <b>true</b>
-- WebIDEUsage <b>odata_gen</b>
+- HTML5Dynamic Destination <b>-> true</b>
+- WebIDEEnabled <b>-> true</b>
+- WebIDEUsage <b>-> odata_gen</b>
 Click on <b>Save </b>button.
 <br><br>
 
