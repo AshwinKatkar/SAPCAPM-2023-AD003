@@ -32,23 +32,26 @@ In this exercise you will learn:
 
 ![03](./images//05.png)
 
-4. Select <b>Connect to a system</b>in <b>Data Source</b>Select <b>IMS_Workshop</b>in <b>System</b>and write <b>/catlog</b> in <b>Service path</b> and click on <b>Next</b>.
+4. Select <b>Connect to a system</b> in <b> Data Source</b> Select <b> Your project </b> in <b> System</b>and Give<b>/catlog</b> in your <b> Service path</b> example : https://crave-infotech-workshop-sap-build-9w562br3-dev-ims-full75303b83.cfapps.eu10-004.hana.ondemand.com <b>/catalog<b>/Incidents and click on <b>Next</b>.
 <br>
 
 ![03](./images//09.png)
 
-5. Select <b>Incidents</b>in <b>Main Entity</b> and click on <b>Next</b>.
+5. Select your main entity which you want to show in list page in <b>Main Entity</b> and click on <b>Next</b>.
 <br>
 
 ![03](./images//10.png)
 
-6. Write  project name in<b>Module name</b>.<br>
+6.  Give module name as your project name.<b>Module name</b>.<br>
 - note: Module name should be <b>lowercase</b> and without space.<br>
 and choose the option as shown in below and click on <b>Next</b>.
 <br>
 
 ![03](./images//11.png)
 <br>
+- For deployment configuration of MTA project choose "<b>Yes</b>"
+- For adding FLP Configuration choose "<b>Yes</b>" otherwise you can choose "<b>No</b>"
+- We don't require advance configuration so choose "<b>No</b>"
 
 ![03](./images//12.png)
 
