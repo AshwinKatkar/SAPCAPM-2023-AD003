@@ -257,18 +257,22 @@ cds deploy --to hana
 
 2. Click on <b>Create Configuration</b> <br><br>![Start Template](images/24.png)<br>
 
-3. After that you will get pop up Click on that and press enter <br><br>![Start Template](images/25.png)<br>
+3. After that you will get pop up Click on that and press enter. Now you can able to see Created Database Configuration open that folder and highlighted section in <b>db-hana</b> <br><br>![Start Template](images/25.png)<br>
 
-4. Now you can able to see Created Database Configuration open that folder and click on  bind <b>db-hana</b> <br><br>![Start Template](images/25.png)<br>
+4. You will get pop up Click on <b>Project_Name-db hana(hdi-shared)</b> <br><br>![Start Template](images/34.png)<br>
 
-5. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](images/27.png)<br> 
+5. Click on <b>Yes</b> <br><br>![Start Template](images/35.png)<br>
 
-6. On left side <b>mta archives</b> folder will be created open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
+6. Now you are successfuly conected to  <b>Hana Database</b> <br><br>![Start Template](images/35.png)<br>
+
+7. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](images/27.png)<br> 
+
+8. On left side <b>mta archives</b> folder will be created open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
 ![Start Template](images/28.png)<br> <br><br>![Start Template](images/29.png)<br> 
 
-7. After Deployment on project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
+9. After Deployment on project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
 
-8. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
+10. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
 
 ## Summary <a name="summary"></a>
 
