@@ -263,7 +263,7 @@ cds deploy --to hana
 
 5. Click on <b>Yes</b> <br><br>![Start Template](images/35.png)<br>
 
-6. Now you are successfuly conected to  <b>Hana Database</b> <br><br>![Start Template](images/35.png)<br>
+6. Now you are successfuly conected to  <b>Hana Database</b> <br><br>![Start Template](images/36.png)<br>
 
 7. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](images/27.png)<br> 
 
