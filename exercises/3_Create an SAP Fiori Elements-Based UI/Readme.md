@@ -61,7 +61,7 @@ Then, Expand App folder and right click on project name as shown below then sele
 
 <br><br>![Image](./images/15.png)
 
- 10. <b>SAP Fiori Elements-Based UI</b> is ready. 
+ 10. <b>SAP Fiori Elements-Based UI</b>. 
 <br><br>
 
  ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/FinalOverview.png)
