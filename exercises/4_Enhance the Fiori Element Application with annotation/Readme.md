@@ -359,7 +359,7 @@ annotate CatalogService.Incidents with {
 <br>
 
 4. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>
-![Start Template](../2_Create%20CAP%20Based%20Application/images/17.png/17.png)<br>
+![Start Template](../2_Create%20CAP%20Based%20Application/images/17.png)<br>
 
 5. Run <b>cds build/all</b> command and press enter 
 
