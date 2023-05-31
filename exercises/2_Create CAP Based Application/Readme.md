@@ -257,7 +257,7 @@ cds deploy --to hana
 
 2. Click on <b>Create Configuration</b> <br><br>![Start Template](images/24.png)<br>
 
-3. After that you will get pop up Click on that and press enter. Now you can able to see Created Database Configuration open that folder and highlighted section in <b>db-hana</b> <br><br>![Start Template](images/25.png)<br>
+3. After that you will get pop up Click on that and press enter. Now you can able to see Created Database Configuration open that folder and Click on  highlighted section in <b>db-hana</b> as shown in below <br><br>![Start Template](images/25.png)<br>
 
 4. You will get pop up Click on <b>Project_Name-db hana(hdi-shared)</b> <br><br>![Start Template](images/34.png)<br>
 
