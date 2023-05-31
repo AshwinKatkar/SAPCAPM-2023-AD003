@@ -46,7 +46,7 @@ Click on <b>Next</b> button.
 Select Destination name which you have created, and click on <b>Next</b> button.
 <br><br>![Image](./images/08.png)
 
-8. Give semantic object Give <b>manage</b> in Action field. Give <b> Application title</b> in title field. And subtitle is optional you give if you want.
+8. Give semantic object , Give <b>manage</b> in Action field , Give <b> Application title</b> in title field. And subtitle is optional you can give if you want.
 click on <b>Finish button.</b>
 <br><br>![Image](./images/09.png)
 
