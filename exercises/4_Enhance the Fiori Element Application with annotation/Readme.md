@@ -1,5 +1,6 @@
 ## Table of Contents
  - [Overview](#overview)
+ - [Create Annotation in CAP ](#annotation)
  - [Create SAP Fiori Application](#FioriApp)
 
 
@@ -11,7 +12,372 @@ In this exercise you will learn:
 
 - How to Create SAP Fiori Application.
 
+### Create annotation in CAP Project <a name="annotation"></a>
 
+1.  To Create annotation click on <b>Project name</b> create <b>i18n</b> folder <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/14.png)<br>
+
+2. Inside folder create <b>i8n.properties</b> file and write code as shown in below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/15.png)<br>
+
+```
+#Common Fields
+#XFLD: Label
+ID  = Incident ID 
+#XFLD: Label
+title = Title
+#XFLD: Label
+category = Category 
+#XFLD: Label
+priority = Priority
+#XFLD: Label
+Incident_Status = Status
+#XFLD: Label
+location = Location
+#XFLD: Label
+observation = Is Observed?
+#XFLD: Label
+Address = Address
+#XFLD: Label
+Date_Time = Date Time
+
+
+
+```
+<br>
+
+3. Create <b>cat-service.annotation.cds</b> file inside  <b>srv</b>  folder and write code as shown below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
+
+```
+using CatalogService from './cat-service';
+using from '@sap/cds/common';
+
+annotate CatalogService.Incidents with {
+    ID          @title: '{i18n>ID}';
+    title       @title: '{i18n>title}';
+    category    @title: '{i18n>category}';
+    Priority    @title: '{i18n>priority}';
+    Status      @title: '{i18n>Incident_Status}';
+    location    @title: '{i18n>location}';
+    observation @title: '{i18n>observation}';
+    Address     @title: '{i18n>Address}';
+    Date_Time   @title: '{i18n>Date_Time}';
+};
+
+annotate CatalogService.Incidents with @(
+    sap.searchable                : false,
+
+    UI.HeaderInfo                 : {
+        TypeName      : 'Incidents List',
+        TypeNamePlural: 'Incidents List',
+    //  Title          : {Value : PsplInvoice}
+    },
+    UI.SelectionFields            : [
+        category_ID,
+        Priority_ID,
+        Status_ID,
+        location_ID
+    ],
+    UI.PresentationVariant        : {SortOrder: [{
+        $Type     : 'Common.SortOrderType',
+        Property  : 'Date_Time',
+        Descending: true
+    }]},
+    UI.LineItem                   : [
+        // {
+        //     $Type : 'UI.DataField',
+        //     Value : ID,
+        // },
+        {
+            $Type: 'UI.DataField',
+            Value: title
+        },
+        {
+            $Type: 'UI.DataField',
+            Value: category_ID
+        },
+        {
+            $Type: 'UI.DataField',
+            Value: Priority_ID
+        },
+        {
+            $Type: 'UI.DataField',
+            Value: Status_ID,
+        },
+        {
+            $Type: 'UI.DataField',
+            Value: location_ID
+        },
+        {
+            $Type: 'UI.DataField',
+            Value: observation_ID
+        },
+        {
+            $Type: 'UI.DataField',
+            Value: Address
+        },
+        {
+            $Type: 'UI.DataField',
+            Value: Date_Time
+        }
+
+
+    ],
+    UI.FieldGroup #GeneratedGroup1: {
+        $Type: 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type: 'UI.DataField',
+                Value: ID,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: title,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: category_ID,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: Priority_ID,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: Status_ID
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: location_ID,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: observation_ID,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: Address,
+            },
+            {
+                $Type: 'UI.DataField',
+                Value: Date_Time,
+            },
+        ],
+    },
+    UI.Facets                     : [{
+        $Type : 'UI.ReferenceFacet',
+        ID    : 'GeneratedFacet1',
+        Label : 'General Information',
+        Target: '@UI.FieldGroup#GeneratedGroup1',
+    }, ]
+);
+
+annotate CatalogService.Incidents with {
+    Status @(
+        Common.ValueList               : {
+            $Type         : 'Common.ValueListType',
+            CollectionPath: 'Status',
+            Parameters    : [
+                {
+                    $Type            : 'Common.ValueListParameterInOut',
+                    LocalDataProperty: Status_ID,
+                    ValueListProperty: 'ID',
+                },
+                {
+                    $Type            : 'Common.ValueListParameterDisplayOnly',
+                    ValueListProperty: 'SName',
+                }
+            ],
+        },
+
+
+        Common.ValueListWithFixedValues: true
+    )
+};
+
+annotate CatalogService.Status with {
+    ID @Common.Text: {
+        $value                : SName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    Status @Common.Text: {
+        $value                : Status.SName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    Priority @(
+        Common.ValueList               : {
+            $Type         : 'Common.ValueListType',
+            CollectionPath: 'Priority',
+            Parameters    : [
+                {
+                    $Type            : 'Common.ValueListParameterInOut',
+                    LocalDataProperty: Priority_ID,
+                    ValueListProperty: 'ID',
+                },
+                {
+                    $Type            : 'Common.ValueListParameterDisplayOnly',
+                    ValueListProperty: 'PName',
+                }
+            ],
+        },
+
+
+        Common.ValueListWithFixedValues: true
+    )
+};
+
+annotate CatalogService.Priority with {
+    ID @Common.Text: {
+        $value                : PName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    Priority @Common.Text: {
+        $value                : Priority.PName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    location @(
+        Common.ValueList               : {
+            $Type         : 'Common.ValueListType',
+            CollectionPath: 'location',
+            Parameters    : [
+                {
+                    $Type            : 'Common.ValueListParameterInOut',
+                    LocalDataProperty: location_ID,
+                    ValueListProperty: 'ID',
+                },
+                {
+                    $Type            : 'Common.ValueListParameterDisplayOnly',
+                    ValueListProperty: 'LName',
+                }
+            ],
+        },
+
+
+        Common.ValueListWithFixedValues: true
+    )
+};
+
+annotate CatalogService.location with {
+    ID @Common.Text: {
+        $value                : LName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    location @Common.Text: {
+        $value                : location.LName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    category @(
+        Common.ValueList               : {
+            $Type         : 'Common.ValueListType',
+            CollectionPath: 'category',
+            Parameters    : [
+                {
+                    $Type            : 'Common.ValueListParameterInOut',
+                    LocalDataProperty: category_ID,
+                    ValueListProperty: 'ID',
+                },
+                {
+                    $Type            : 'Common.ValueListParameterDisplayOnly',
+                    ValueListProperty: 'CName',
+                }
+            ],
+        },
+
+
+        Common.ValueListWithFixedValues: true
+    )
+};
+
+annotate CatalogService.category with {
+    ID @Common.Text: {
+        $value                : CName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    category @Common.Text: {
+        $value                : category.CName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    observation @(
+        Common.ValueList               : {
+            $Type         : 'Common.ValueListType',
+            CollectionPath: 'observation',
+            Parameters    : [
+                {
+                    $Type            : 'Common.ValueListParameterInOut',
+                    LocalDataProperty: observation_ID,
+                    ValueListProperty: 'ID',
+                },
+                {
+                    $Type            : 'Common.ValueListParameterDisplayOnly',
+                    ValueListProperty: 'OName',
+                }
+            ],
+        },
+
+
+        Common.ValueListWithFixedValues: true
+    )
+};
+
+annotate CatalogService.observation with {
+    ID @Common.Text: {
+        $value                : OName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+annotate CatalogService.Incidents with {
+    observation @Common.Text: {
+        $value                : observation.OName,
+        ![@UI.TextArrangement]: #TextOnly,
+    }
+};
+
+```
+<br>
+
+4. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/17.png)<br>
+
+5. Run <b>cds build/all</b> command and press enter 
+
+```
+cds build/all
+
+```
+
+6. Run <b>cds deploy --to hana</b> command and press enter 
+
+```
+cds deploy --to hana
+
+```
+
+7. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/27.png)<br> 
+
+8. Open <b>mta archives</b> folder inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
+![Start Template](../2_Create%20CAP%20Based%20Application/28.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/29.png)<br> 
 
 ## Create SAP Fiori Application <a name="FioriApp"></a>
 
