@@ -358,7 +358,8 @@ annotate CatalogService.Incidents with {
 ```
 <br>
 
-4. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/17.png)<br>
+4. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>
+![Start Template](../2_Create%20CAP%20Based%20Application/images/17.png/17.png)<br>
 
 5. Run <b>cds build/all</b> command and press enter 
 
@@ -374,10 +375,11 @@ cds deploy --to hana
 
 ```
 
-7. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/27.png)<br> 
+7. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>
+![Start Template](../2_Create%20CAP%20Based%20Application/images/26.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/27.png)<br> 
 
 8. Open <b>mta archives</b> folder inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
-![Start Template](../2_Create%20CAP%20Based%20Application/28.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/29.png)<br> 
+![Start Template](../2_Create%20CAP%20Based%20Application/images/28.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/29.png)<br> 
 
 ## Create SAP Fiori Application <a name="FioriApp"></a>
 
