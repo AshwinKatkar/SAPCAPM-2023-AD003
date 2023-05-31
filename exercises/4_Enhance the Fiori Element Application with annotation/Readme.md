@@ -82,7 +82,7 @@ Click on <b>Preview Application</b>.
 11. Here we can see the  SAP Fiori Application. 
 <br>
 
- ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/Overview.png)
+ ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/FinalOverview.png)
 
 ## Summary <a name="summary"></a>
 
