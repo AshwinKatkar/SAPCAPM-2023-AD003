@@ -26,7 +26,7 @@ Choose your CAP Project which you have created earlier.
 Then select oData Service and click on <b>Next</b> button.<br>
 <br>![Image](./images/04.png)
 
-5. Select your main entity as your table name which you have created in your project.<br>
+5. Select your main entity which you want to show in list page.<br>
 Click on <b>Next</b> button.
 <br><br>![Image](./images/05.png)
 
