@@ -40,7 +40,7 @@ After that you can select <b> Help </b> and then select <b> Get Started </b>
 ![03](./images//05.png)
 
 5. Select <b> Connect to a system </b> in <b> Data Source </b> Select <b> Your project </b> in <b> System</b> and Give <b> /catlog </b> in your <b> Service path</b>
-For example : https://crave-infotech-workshop-sap-build-9w562br3-dev-ims-full75303b83.cfapps.eu10-004.hana.ondemand.com/catalog/Incidents <b> /catalog <b> is your sevice path in above example. and click on <b>Next</b>.
+For example : https://crave-infotech-workshop-sap-build-9w562br3-dev-ims-full75303b83.cfapps.eu10-004.hana.ondemand.com/catalog/Incidents <b> /catalog </b> is your sevice path in above example. and click on <b>Next</b>.
 <br>
 
 ![03](./images//09.png)
