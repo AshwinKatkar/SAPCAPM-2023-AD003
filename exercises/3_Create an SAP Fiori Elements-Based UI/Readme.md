@@ -8,7 +8,7 @@
 
 In this exercise, we will create UI from local CAP project for SAP Fiori Element.
 
-![Image](./images/12.png)
+ ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/Overview.png)
 
 ## Create an SAP Fiori Elements-Based UI <a name="section2"></a>
 
@@ -57,7 +57,9 @@ Then you will get pop-up message, click on <b>Open in new Tab</b> as shown in be
 <br>
 
  9. <b>SAP Fiori Elements-Based UI</b> is ready. 
-<br><br>![Image](./images/12.png)
+<br><br>
+
+ ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/Overview.png)
 
 
 ## Summary<a name="summary"></a>

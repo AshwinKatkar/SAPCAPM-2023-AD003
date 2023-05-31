@@ -39,7 +39,7 @@ After that you can select <b> Help </b> and then select <b> Get Started </b>
 
 ![03](./images//05.png)
 
-5. Select <b> Connect to a system </b> in <b> Data Source </b> Select <b> Your project </b> in <b> System</b> and Give <b> /catlog </b> in your <b> Service path</b>
+5. Select <b> Connect to a system </b> in <b> Data Source </b> Select <b> Your project </b> in <b> System</b> and Give <b> /catlog </b> in your <b> Service path</b> <br>
 For example : https://crave-infotech-workshop-sap-build-9w562br3-dev-ims-full75303b83.cfapps.eu10-004.hana.ondemand.com/catalog/Incidents <b> /catalog </b> is your sevice path in above example. and click on <b>Next</b>.
 <br>
 
@@ -82,7 +82,7 @@ Click on <b>Preview Application</b>.
 11. Here we can see the  SAP Fiori Application. 
 <br>
 
-![03](./images//17.png)
+ ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/Overview.png)
 
 ## Summary <a name="summary"></a>
 
