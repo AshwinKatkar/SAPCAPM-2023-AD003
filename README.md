@@ -12,7 +12,7 @@ This session covers how to setup SAP BAS (Business Application Studio) project b
 Scenario:  Build Web Api with SAP BAS (Business Application Studio)<br>
 
 
-  ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/Overview.png)
+  ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/FinalOverview.png)
 
 ## Requirements
 
