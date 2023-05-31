@@ -18,8 +18,7 @@ Select all check boxes given below and click on <b>Finish</b> button. <br><br>![
 
 ## CAP Table Creation<a name="table"></a>
 
-1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> here we can write code to create a table as shown in below <br><br>![Start Template](images/12.png)<br>, here we use entity keyword to create a table followed by table name Incident <br>
-<br>
+1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> here we can write code to create a table as shown in below, here we use entity keyword to create a table followed by table name Incident <br><br>![Start Template](images/12.png)<br> 
 
 ```
 namespace my.Incident_Management;
@@ -79,7 +78,7 @@ Date_Time = Date Time
 ```
 <br>
 
-5. Create <b>cat-service.annotation.cds</b> file inside <b>srv</b> folder and write code as shown below <br><br>![Start Template](images/16.png)<br>
+5. Create <b>cat-service.annotation.cds</b> file inside  <b>srv</b>  folder and write code as shown below <br><br>![Start Template](images/16.png)<br>
 
 ```
 using CatalogService from './cat-service';
@@ -213,20 +212,20 @@ annotate CatalogService.Incidents with @(
 
 1. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/17.png)<br>
 
-2. The terminal will open in the bottom right of the Business Application studio run <b>cf login</b>command and press enter
+2. The terminal will open in the bottom right of the Business Application studio run  <b>cf login</b>  command and press enter  <br>
 
 ```
 cf login
 
 ```
- <br><br>![Start Template](images/18.png)<br>
+ <br>![Start Template](images/18.png)<br>
 
 3. Copy <b>https://api.cf.eu10-004.hana.ondemand.com </b>text in <b>API end point</b> and press enter 
 ```
 https://api.cf.eu10-004.hana.ondemand.com
 
 ```
-<br><br>![Start Template](images/33.png)<br>
+<br>![Start Template](images/33.png)<br>
 
 4. Enter your  <b>Email</b> and  <b>Password</b> and press enter <br><br>![Start Template](images/19.png)<br>
 
@@ -235,21 +234,21 @@ https://api.cf.eu10-004.hana.ondemand.com
 npm install
 
 ```
-<br><br>![Start Template](images/20.png)<br>
+<br>![Start Template](images/20.png)<br>
 
 6. After installation of npm packages run <b>cds build/all</b> command and press enter  
 ```
 cds build/all
 
 ```
-<br><br>![Start Template](images/21.png)<br>
+<br>  ![Start Template](images/21.png)<br>
 
 7. After that run <b>cds deploy --to hana</b> command and press enter
 ```
 cds deploy --to hana
 
 ```
-<br><br>![Start Template](images/22.png)<br>
+<br>![Start Template](images/22.png)<br>
 
 
 ## Database connection and project deployment <a name="db"></a>
@@ -264,12 +263,12 @@ cds deploy --to hana
 
 5. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](images/27.png)<br> 
 
-5. On left side <b>mta archives</b> folder will be created open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>!
-[Start Template](images/28.png)<br> <br><br>![Start Template](images/29.png)<br> 
+6. On left side <b>mta archives</b> folder will be created open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
+![Start Template](images/28.png)<br> <br><br>![Start Template](images/29.png)<br> 
 
-6. After Deployment on project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
+7. After Deployment on project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
 
-7. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
+8. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
 
 ## Summary <a name="summary"></a>
 
