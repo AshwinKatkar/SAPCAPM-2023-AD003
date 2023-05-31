@@ -14,7 +14,7 @@ In this exercise you will learn:
 
 ### Create annotation in CAP Project <a name="annotation"></a>
 
-1.  To Create annotation click on <b>Project name</b> create <b>i18n</b> folder <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/14.png)<br>
+1.  To Create annotation you need to create <b>i18n</b> folder in your existing CAP project  click on <b>Project name</b> create <b>i18n</b> folder <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/14.png)<br>
 
 2. Inside folder create <b>i8n.properties</b> file and write code as shown in below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/15.png)<br>
 
@@ -380,6 +380,10 @@ cds deploy --to hana
 
 8. Open <b>mta archives</b> folder inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/28.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/29.png)<br> 
+
+9. After Deployment on project you will get service link as shown in below<br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/31.png)<br>
+
+10. Now your application is successfully deployed. 
 
 ## Create SAP Fiori Application <a name="FioriApp"></a>
 
