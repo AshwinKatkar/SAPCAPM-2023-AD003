@@ -7,12 +7,12 @@ This repository contains the material for the Crave Hands-On session called [AD0
 
 ## Overview
 
-This session covers how to build Web Api , how to setup SAP BAS (Business Application Studio) project  selecting the appropriate template, and  how to configuring project settings for development.also will see API CRUD (Create, Read, Update, Delete) operations to interact with data in SAP BAS projects. it allowing developers to easily create, retrieve, update, and delete data using RESTful APIs. These operations enable efficient data management and manipulation within the SAP BAS environment.
+This session covers how to setup SAP BAS (Business Application Studio) project by selecting the appropriate template, how to configuring project settings for development and  how to build Web Api. Also will see CRUD (Create, Read, Update, Delete) operations to interact with data in SAP Hana Database. it allows developers to easily create, retrieve, update, and delete data using CAPM service. These operations enable efficient data management and manipulation within the SAP BAS environment.
 
 Scenario:  Build Web Api with SAP BAS (Business Application Studio)<br>
 
 
-  ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/MainOverview.png)
+  ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/FinalOverview.png)
 
 ## Requirements
 
