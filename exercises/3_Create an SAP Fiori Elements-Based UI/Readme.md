@@ -53,7 +53,7 @@ click on <b>Finish button.</b>
 8. Now <b>SAP Fiori Elements-Based UI</b> is created.
 Then, Expand App folder and right click on project name as shown below then select <b> Preview Application </b>
 
-<br><br>![Image](./images/13.png)
+<br><br>![Image](./images/14.png)
 <br>
 
  9. <b>SAP Fiori Elements-Based UI</b> is ready. 
