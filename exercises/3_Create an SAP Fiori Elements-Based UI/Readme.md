@@ -56,7 +56,12 @@ Then, Expand App folder and right click on project name as shown below then sele
 <br><br>![Image](./images/14.png)
 <br>
 
- 9. <b>SAP Fiori Elements-Based UI</b> is ready. 
+ 9. Click on  <b> Web Application link as shown below </b> is ready. 
+<br><br>
+
+<br><br>![Image](./images/15.png)
+
+ 10. <b>SAP Fiori Elements-Based UI</b> is ready. 
 <br><br>
 
  ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/FinalOverview.png)
