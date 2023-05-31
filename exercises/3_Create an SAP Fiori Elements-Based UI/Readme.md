@@ -26,25 +26,27 @@ Choose your CAP Project which you have created earlier.
 Then select oData Service and click on <b>Next</b> button.<br>
 <br>![Image](./images/04.png)
 
-5. Select your main entity as your table name which you have created in your project.<br>
+5. Select your main entity which you want to show in list page.<br>
 Click on <b>Next</b> button.
 <br><br>![Image](./images/05.png)
 
-6. Write module name as your project name.
+6. Give module name as your project name.
 note : module name should be in small letter and without space.
-Write a Application Title.
+Give a Application Title. Also give application name if you want
 Choose radio button as shown in below.
 Click on <b>Next</b> button.
-<br><br>![Image](./images/06.png)
+<br><br>![Image](./images/06.png)<br><br>
+
+- For deployment configuration of MTA project choose "<b>Yes</b>"
+- For adding FLP Configuration choose "<b>Yes</b>" otherwise you can choose "<b>No</b>"
+- We don't require advance configuration so choose "<b>No</b>"
 <br><br>![Image](./images/07.png)
 
 7. Choose the target as <b>Cloud Foundry</b> for your deployment configuration.<br>
 Select Destination name which you have created, and click on <b>Next</b> button.
 <br><br>![Image](./images/08.png)
 
-8. Write semantic object as your <b>Module name.</b> 
-Write <b>manage</b> in Action field. 
-Write <b> Application title</b> in title field.
+8. Give semantic object Give <b>manage</b> in Action field. Give <b> Application title</b> in title field. And subtitle is optional you give if you want.
 click on <b>Finish button.</b>
 <br><br>![Image](./images/09.png)
 
