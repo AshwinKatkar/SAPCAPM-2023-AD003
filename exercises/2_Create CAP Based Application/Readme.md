@@ -158,7 +158,7 @@ cds deploy --to hana
 8. Afer completion of <b>Built MTA Project</b> <b>mta archives</b> folder will be generated open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
 ![Start Template](images/28.png)<br> <br><br>![Start Template](images/29.png)<br> 
 
-9. After Deployment on project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
+9. After Deployment of project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
 
 10. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
 

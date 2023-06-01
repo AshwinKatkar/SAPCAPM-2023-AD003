@@ -381,7 +381,7 @@ cds deploy --to hana
 8. Open <b>mta archives</b> folder inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/28.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/29.png)<br> 
 
-9. After Deployment on project you will get service link as shown in below<br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/31.png)<br>
+9. After Deployment of project you will get service link as shown in below<br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/31.png)<br>
 
 10. Now your application is successfully deployed. 
 
