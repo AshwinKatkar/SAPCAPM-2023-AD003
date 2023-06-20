@@ -62,7 +62,6 @@ annotate CatalogService.Incidents with @(
     UI.HeaderInfo                 : {
         TypeName      : 'Incidents List',
         TypeNamePlural: 'Incidents List',
-    //  Title          : {Value : PsplInvoice}
     },
     UI.SelectionFields            : [
         category_ID,
@@ -76,10 +75,6 @@ annotate CatalogService.Incidents with @(
         Descending: true
     }]},
     UI.LineItem                   : [
-        // {
-        //     $Type : 'UI.DataField',
-        //     Value : ID,
-        // },
         {
             $Type: 'UI.DataField',
             Value: title,
