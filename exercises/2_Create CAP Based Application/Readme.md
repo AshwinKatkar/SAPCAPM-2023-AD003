@@ -67,7 +67,7 @@ entity observation {
 <br>
 
 2. Now, to expose <b>Incident</b> table to services we have to do projection of tables for which,
-Go to <b>srv</b> folder and click on <b>cat-service.cds</b> and write the following code <br><br>![Start Template](images/exc2/4.png)<br>
+Go to <b>srv</b> folder and click on <b>cat-service.cds</b> and replace previous code with below code as shown below <br><br>![Start Template](images/exc2/4.png)<br>
 
 ```
 using my.Incident_Management as ims from '../db/data-model';
@@ -154,14 +154,16 @@ cds deploy --to hana
 
 8. Now you are successfuly conected to  <b>Hana Database</b> <br><br>![Start Template](images/exc2/19.png)<br>
 
-9. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/exc2/20.png)<br> <br> ![Start Template](images/exc2/25.png)
+9. <b>Click</b> on the highlighted part as shown in below<br><br>![Start Template](images/exc2/26.png)<br>
 
-10. Afer completion of <b>Built MTA Project</b> <b>mta archives</b> folder will be generated open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
+10. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/exc2/20.png)<br> <br> ![Start Template](images/exc2/25.png)
+
+11. Afer completion of <b>Built MTA Project</b> <b>mta archives</b> folder will be generated open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
 ![Start Template](images/exc2/21.png)<br><br>
 
-11. After Deployment of project you will get service link as shown in below<br><br>![Start Template](images/exc2/24.png)<br>
+12. After Deployment of project you will get service link as shown in below<br><br>![Start Template](images/exc2/24.png)<br>
 
-12. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/exc2/23.png)<br>
+13. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/exc2/23.png)<br>
 
 ## Summary <a name="summary"></a>
 

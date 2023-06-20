@@ -11,7 +11,7 @@ In this exercise you will learn:
 
 ### Create Fiori App using cds annotation <a name="annotation"></a>
 
-1. Now to add annotation open app->incidentmanagement->webapp->i18n inside  <b>i18n</b> folder open <b>i8n.properties</b> file and replace code as shown in below <br><br>
+1. Now to add annotation open app->incidentmanagement->webapp->i18n inside  <b>i18n</b> folder open <b>i8n.properties</b> file andreplace previous code with below code as shown below <br><br>
 
 ```
 #Common Fields
@@ -38,7 +38,7 @@ Date_Time = Date Time
 ```
 <br><br> ![Start Template](./images/21.png)<br>
 
-2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br><br>![Start Template](./images/20.png)<br>
+2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace previous code with below code as shown below <br><br>![Start Template](./images/20.png)<br>
 
 ```
 using CatalogService from '../../srv/cat-service';
@@ -371,19 +371,20 @@ annotate CatalogService.Incidents with {
 cds build/all
 
 ```
-<br><br> ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/10.png)<br>
-5. Run <b>cds deploy --to hana</b> command and press enter <br>
+<br><br> ![Start Template](./images/23.png)<br>
+
+5. Build sucessfully completed <br><br> ![Start Template](./images/24.png)<br>
+
+6. Run <b>cds deploy --to hana</b> command and press enter <br>
 
 ```
 cds deploy --to hana
 
 ```
-<br><br> ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/11.png)<br>
-6. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>
-![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/20.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/25.png)<br> 
+<br><br> ![Start Template](./images/25.png)<br>
 
-7. Open <b>mta archives</b> folder inside that <b>IMS_Fullstack.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
-![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/21.png)<br> <br>
+7. Project deploy sucessfully <br><br> ![Start Template](./images/26.png)<br>
+
 
 8. Run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
 
