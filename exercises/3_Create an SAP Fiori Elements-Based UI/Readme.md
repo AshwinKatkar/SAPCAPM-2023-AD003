@@ -66,7 +66,7 @@ cds watch --profile hybrid
  12. You will redirected to new tab Click on Web Application link as shown below
 <br><br>![Start Template](images/20.png)<br><br>
 
-13. Now we Have Sucessfully Created Fiori Application
+13. Now we have sucessfully created Fiori Application
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 
