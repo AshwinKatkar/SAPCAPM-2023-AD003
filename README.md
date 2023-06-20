@@ -9,7 +9,7 @@ This repository contains the material for the Crave Hands-On session called [AD0
 
 This session covers how to setup SAP BAS (Business Application Studio) project by selecting the appropriate template, how to configuring project settings for development and  how to build Web Api. Also will see CRUD (Create, Read, Update, Delete) operations to interact with data in SAP Hana Database. It allows developers to easily create, retrieve, update, and delete data using CAP service and Fiori Elements application using same CAP API. These operations enable efficient data management and manipulation within the SAP BAS environment.
 
-Scenario:  Build Incident Management refrence sample app for CAP and Fiori Elements<br>
+Scenario:  Build Incident Management refrence sample app using CAP and Fiori Elements<br>
 
 
   ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/FinalOverview.png)
