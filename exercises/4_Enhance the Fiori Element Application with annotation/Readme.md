@@ -398,7 +398,8 @@ cds watch --profile hybrid
 <br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/17.png)<br><br>
 
  10. Click on Web Application link as shown below ,you will redirected to new tab <br>
- <b>Note</b>: If below window is already opened you can skip  8 and 9 step.
+ <b>Note</b>: 
+ - If below window is already opened you can skip  8 and 9 step.
  - Refresh the page and Click on highlighted WebLink.
 <br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/20.png)<br><br>
 
