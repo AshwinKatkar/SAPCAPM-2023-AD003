@@ -401,7 +401,7 @@ cds watch --profile hybrid
  <b>Note</b>: If below window is already opened you can skip  8 and 9 step.Refresh the page and Click on highlighted WebLink.
 <br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/20.png)<br><br>
 
-11. Now your application is successfully Created Enhanced SAP Foiri Application . 
+11. Now we have successfully Created Enhanced SAP Foiri Application . 
 
 
  ![Login Page](../4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png)
