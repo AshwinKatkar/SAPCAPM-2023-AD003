@@ -1,16 +1,17 @@
 ## Table of Contents
  - [Overview](#section1)
- - [Create a SAP Fiori APP in CAP Project](#section2)
+ - [Create a SAP Fiori App in CAP Project](#section2)
  - [Summary](#summary)
 
 
 ### Overview <a name="section1"></a>
 
-In this exercise, we will setup SAP Fiori APP in existing CAP project.
+In this exercise you will learn:
+- How to setup SAP Fiori APP in existing CAP project.
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 
-## Create a SAP Fiori APP in CAP Project <a name="section2"></a>
+## Create a SAP Fiori App in CAP Project <a name="section2"></a>
 
 1. For Creating <b>SAP Fiori Elements-Based UI </b> click on menu tab as shown in below.<br>
 then select <b>View </b> from menu and then select <b>Command Palatte. </b><br><br>![Image](./images/01.png)

@@ -8,7 +8,8 @@
 
 ### Overview <a name="section1"></a>
 
-In this exercise, we will create CAP Based Application.
+In this exercise, you will learn:
+- How to create CAP Based Application.
 
  <br>![Start Template](images/exc2/23.png)
 

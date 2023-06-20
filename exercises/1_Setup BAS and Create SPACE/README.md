@@ -10,7 +10,8 @@
 
 
 
-In this exercise, you will Create  your Dev Space in SAP BAS (Business Application Studio).
+In this exercise, you will learn<br>
+-  Create  your Dev Space in SAP BAS (Business Application Studio).
 
 
 ## Create Dev Space <a name="devspace"></a>
