@@ -44,7 +44,7 @@ Click on <b>Next</b> button.
 
 7. Choose the target as <b>Cloud Foundry</b> for your deployment configuration.<br>
 Select Destination name as <b>None</b>, and click on <b>Next</b> button.
-<br><br>![Image](./images/08.png)
+<br><br>![Image](./images/08.png);
 
 8. Give semantic object , Give <b>manage</b> in Action field , Give <b> Application title</b> in title field. And subtitle is optional you can give if you want.
 click on <b>Finish button.</b>
