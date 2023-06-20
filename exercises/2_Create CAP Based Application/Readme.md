@@ -20,10 +20,10 @@ Select all check boxes given below and click on <b>Finish</b> button. <br><br>![
 
 ## CAP Table Creation<a name="table"></a>
 
-1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> here you can refer code to create a table as shown in below, here we use <b>entity<b> keyword to create a table followed by table name Incident <br><br>![Start Template](images/exc2/3.png)<br> 
+1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> replace the code and you can refer below code to create a table as shown in below, here we use <b>entity<b> keyword to create a table followed by table name Incident <br><br>![Start Template](images/exc2/3.png)<br> 
 
 ```
-namespace my.Incident_Management;
+namespace my.IMS_Fullstack;
 
 using {managed} from '@sap/cds/common';
 
@@ -71,7 +71,7 @@ entity observation {
 Go to <b>srv</b> folder and click on <b>cat-service.cds</b> and write the following code <br><br>![Start Template](images/exc2/4.png)<br>
 
 ```
-using my.Incident_Management as ims from '../db/data-model';
+using my.IMS_Fullstack as ims from '../db/data-model';
 
 service CatalogService {
 
@@ -147,22 +147,26 @@ cds deploy --to hana
 
 2. Click on <b>Create Configuration</b> <br><br>![Start Template](images/exc2/13.png)<br>
 
-3. After that you will get pop up Click on that and press enter. Now you can able to see Created Database Configuration open that folder and Click on  highlighted section in <b>db-hana</b> as shown in below <br><br>![Start Template](images/25.png)<br>
+3. After that you will get pop up <b>IMS_Fullstack-development profile (CAP)</b>Click on that and press enter.<br><br>![Start Template](images/exc2/14.png)<br>
 
-4. You will get pop up Click on <b>Incident Management-db hana(hdi-shared)</b> <br><br>![Start Template](images/34.png)<br>
+4. Click on <b>Run IMS_Fullstack</b> and press enter.<br><br>![Start Template](images/exc2/15.png)<br>
 
-5. Click on <b>Yes</b> <br><br>![Start Template](images/35.png)<br>
+5. Now you can able to see Created Database Configuration open that folder and Click on  highlighted section in <b>db-hana</b> as shown in below <br><br>![Start Template](images/exc2/16.png)<br>
 
-6. Now you are successfuly conected to  <b>Hana Database</b> <br><br>![Start Template](images/36.png)<br>
+6. You will get pop up Click on <b>IMS_Fullstack-db hana(hdi-shared)</b> <br><br>![Start Template](images/exc2/17.png)<br>
 
-7. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/26.png)<br> <br><br>![Start Template](images/27.png)<br> 
+7. Click on <b>Yes</b> <br><br>![Start Template](images/exc2/18.png)<br>
 
-8. Afer completion of <b>Built MTA Project</b> <b>mta archives</b> folder will be generated open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
-![Start Template](images/28.png)<br> <br><br>![Start Template](images/29.png)<br> 
+8. Now you are successfuly conected to  <b>Hana Database</b> <br><br>![Start Template](images/exc2/19.png)<br>
 
-9. After Deployment of project you will get service link as shown in below<br><br>![Start Template](images/31.png)<br>
+9. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/exc2/20.png)<br> <br>
 
-10. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/32.png)<br>
+10. Afer completion of <b>Built MTA Project</b> <b>mta archives</b> folder will be generated open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
+![Start Template](images/exc2/21.png)<br><br>
+
+11. After Deployment of project you will get service link as shown in below<br><br>![Start Template](images/exc2/22.png)<br>
+
+12. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/exc2/23.png)<br>
 
 ## Summary <a name="summary"></a>
 
