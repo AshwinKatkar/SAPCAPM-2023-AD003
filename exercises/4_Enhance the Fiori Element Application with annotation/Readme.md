@@ -11,7 +11,7 @@ In this exercise you will learn:
 
 ### Build Fiori App using cds annotation <a name="annotation"></a>
 
-1. Now to add annotation open app-->incidentmanagement-->webapp-->i18n inside  <b>i18n</b> folder open <b>i8n.properties</b> file and replace previous code with below code as shown below <br><br>
+1. Now to add annotation open app-->incidentmanagement-->webapp-->i18n inside  <b>i18n</b> folder open <b>i8n.properties</b> file and replace previous code with below code as shown below<br><br> ![Start Template](./images/21.png)<br>
 
 ```
 #Common Fields
@@ -36,7 +36,7 @@ Date_Time = Date Time
 
 
 ```
-<br><br> ![Start Template](./images/21.png)<br>
+
 
 2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace previous code with below code as shown below <br><br>![Start Template](./images/20.png)<br>
 
