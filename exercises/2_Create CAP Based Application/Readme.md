@@ -159,12 +159,12 @@ cds deploy --to hana
 
 8. Now you are successfuly conected to  <b>Hana Database</b> <br><br>![Start Template](images/exc2/19.png)<br>
 
-9. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/exc2/20.png)<br> <br>
+9. On left side you can able to see <b>mta.yml</b> file right click on that and select <b>Built MTA Project</b> <br><br>![Start Template](images/exc2/20.png)<br> <br> ![Start Template](images/exc2/22.png)
 
 10. Afer completion of <b>Built MTA Project</b> <b>mta archives</b> folder will be generated open <b>mta archives</b> inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
 ![Start Template](images/exc2/21.png)<br><br>
 
-11. After Deployment of project you will get service link as shown in below<br><br>![Start Template](images/exc2/22.png)<br>
+11. After Deployment of project you will get service link as shown in below<br><br>![Start Template](images/exc2/24.png)<br>
 
 12. Copy Service link and paste in new tab of browser and press enter.  <br><br>![Start Template](images/exc2/23.png)<br>
 
