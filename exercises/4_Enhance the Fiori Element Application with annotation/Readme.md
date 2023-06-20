@@ -1,6 +1,6 @@
 ## Table of Contents
  - [Overview](#overview)
- - [Build Fiori APP using cds Annotation ](#annotation)
+ - [Build Fiori App using cds Annotation ](#annotation)
  - [Summary](#summary)
 
 ### Overview <a name="overview"></a>
