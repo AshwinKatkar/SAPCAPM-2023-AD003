@@ -11,8 +11,7 @@ This session covers how to setup SAP BAS (Business Application Studio) project b
 
 Scenario:  Build Incident Management refrence sample app using CAP and Fiori Elements<br>
 
-
-  ![Login Page](../SAPCAPM-2023-AD003/exercises/4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png)
+  <br>![Login Page](../SAPCAPM-2023-AD003/exercises/4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png);
 
 ## Requirements
 
