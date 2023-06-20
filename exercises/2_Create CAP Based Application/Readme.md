@@ -14,11 +14,13 @@
 2. Select <b>CAP Project</b> from given template and click on <b>Start.</b> <br><br>![Start Template](images/10.png)<br>
 
 3. Enter your Project name as shown below, and choose <b>Node.js</b> from runtime.<br>
-Select all check boxes given below and click on <b>Finish</b> button. <br><br>![Start Template](images/11.png)<br>
+Select all check boxes given below and click on <b>Finish</b> button. <br><br>![Start Template](images/exc2/1.png)<br>
+
+3.Now we have  Sucessfully Created a CAP Project <br><br>![Start Template](images/exc2/2.png)<br>
 
 ## CAP Table Creation<a name="table"></a>
 
-1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> here you can refer code to create a table as shown in below, here we use <b>entity<b> keyword to create a table followed by table name Incident <br><br>![Start Template](images/012.png)<br> 
+1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> here you can refer code to create a table as shown in below, here we use <b>entity<b> keyword to create a table followed by table name Incident <br><br>![Start Template](images/exc2/3.png)<br> 
 
 ```
 namespace my.Incident_Management;
@@ -66,7 +68,7 @@ entity observation {
 <br>
 
 2. Now, to expose <b>Incident</b> table to services we have to do projection of tables for which,
-Go to <b>srv</b> folder and click on <b>cat-service.cds</b> and write the following code <br><br>![Start Template](images/013.png)<br>
+Go to <b>srv</b> folder and click on <b>cat-service.cds</b> and write the following code <br><br>![Start Template](images/exc2/4.png)<br>
 
 ```
 using my.Incident_Management as ims from '../db/data-model';
@@ -98,7 +100,7 @@ entity observation as projection on ims.observation;
 
 ## Install dependencies <a name="install"></a>
 
-1. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/17.png)<br>
+1. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/5.png)<br>
 
 2. The terminal will open in the bottom right of the Business Application studio run  <b>cf login</b>  command and press enter  <br>
 
@@ -106,44 +108,44 @@ entity observation as projection on ims.observation;
 cf login
 
 ```
- <br>![Start Template](images/18.png)<br>
+ <br>![Start Template](images/exc2/6.png)<br>
 
-3. Copy <b>https://api.cf.eu10-004.hana.ondemand.com </b>text in <b>API end point</b> and press enter 
+3. Copy this link <b>https://api.cf.eu10-004.hana.ondemand.com </b> and paste in <b>API end point</b> and press enter 
 ```
 https://api.cf.eu10-004.hana.ondemand.com
 
 ```
-<br>![Start Template](images/33.png)<br>
+<br>![Start Template](images/exc2/7.png)<br>
 
-4. Enter your  <b>Email</b> and  <b>Password</b> and press enter <br><br>![Start Template](images/19.png)<br>
+4. Enter your  <b>Email</b> and  <b>Password</b> and press enter <br><br>![Start Template](images/exc2/8.png)<br>
 
 5. Run <b>npm install </b> command and press enter 
 ```
 npm install
 
 ```
-<br>![Start Template](images/20.png)<br>
+<br>![Start Template](images/exc2/9.png)<br>
 
 6. After installation of npm packages run <b>cds build/all</b> command and press enter  
 ```
 cds build/all
 
 ```
-<br>  ![Start Template](images/21.png)<br>
+<br>  ![Start Template](images/exc2/10.png)<br>
 
 7. After that run <b>cds deploy --to hana</b> command and press enter
 ```
 cds deploy --to hana
 
 ```
-<br>![Start Template](images/22.png)<br>
+<br>![Start Template](images/exc2/11.png)<br>
 
 
 ## Database connection and project deployment <a name="db"></a>
 
-1. Click on highlighted section and select <b>Run Configuration</b> <br><br>![Start Template](images/23.png)<br>
+1. Click on highlighted section and select <b>Run Configuration</b> <br><br>![Start Template](images/exc2/12.png)<br>
 
-2. Click on <b>Create Configuration</b> <br><br>![Start Template](images/24.png)<br>
+2. Click on <b>Create Configuration</b> <br><br>![Start Template](images/exc2/13.png)<br>
 
 3. After that you will get pop up Click on that and press enter. Now you can able to see Created Database Configuration open that folder and Click on  highlighted section in <b>db-hana</b> as shown in below <br><br>![Start Template](images/25.png)<br>
 
