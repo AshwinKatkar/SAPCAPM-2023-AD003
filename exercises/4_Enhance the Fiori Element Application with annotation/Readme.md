@@ -1,9 +1,6 @@
 ## Table of Contents
  - [Overview](#overview)
- - [Create Annotation in CAP ](#annotation)
- - [Create SAP Fiori Application](#FioriApp)
-
-
+ - [Build Fiori APP using cds Annotation ](#annotation)
  - [Summary](#summary)
 
 ### Overview <a name="overview"></a>
@@ -14,9 +11,7 @@ In this exercise you will learn:
 
 ### Create annotation in CAP Project <a name="annotation"></a>
 
-1.  To Create annotation you need to create <b>i18n</b> folder in your existing CAP project  click on <b>Project name</b> create <b>i18n</b> folder <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/14.png)<br>
-
-2. Inside folder create <b>i8n.properties</b> file and write code as shown in below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/15.png)<br>
+1. Now to add annotation open app->incidentmanagement->webapp->i18n inside<b>i18n</b> folder open <b>i8n.properties</b> file and replace code as shown in below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/15.png)<br>
 
 ```
 #Common Fields
@@ -25,39 +20,38 @@ ID  = Incident ID
 #XFLD: Label
 title = Title
 #XFLD: Label
-category = Category 
+Category = Category 
 #XFLD: Label
-priority = Priority
+Priority = Priority
 #XFLD: Label
-Incident_Status = Status
+Status = Status
 #XFLD: Label
-location = Location
+Location = Location
 #XFLD: Label
-observation = Is Observed?
+Observation = Is Observed?
 #XFLD: Label
 Address = Address
 #XFLD: Label
 Date_Time = Date Time
 
 
-
 ```
 <br>
 
-3. Create <b>cat-service.annotation.cds</b> file inside  <b>srv</b>  folder and write code as shown below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
+2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
 
 ```
-using CatalogService from './cat-service';
+using CatalogService from '../../srv/cat-service';
 using from '@sap/cds/common';
 
 annotate CatalogService.Incidents with {
     ID          @title: '{i18n>ID}';
     title       @title: '{i18n>title}';
-    category    @title: '{i18n>category}';
-    Priority    @title: '{i18n>priority}';
-    Status      @title: '{i18n>Incident_Status}';
-    location    @title: '{i18n>location}';
-    observation @title: '{i18n>observation}';
+    category    @title: '{i18n>Category}';
+    Priority    @title: '{i18n>Priority}';
+    Status      @title: '{i18n>Status}';
+    Location    @title: '{i18n>Location}';
+    Observation @title: '{i18n>Observation}';
     Address     @title: '{i18n>Address}';
     Date_Time   @title: '{i18n>Date_Time}';
 };
@@ -74,7 +68,7 @@ annotate CatalogService.Incidents with @(
         category_ID,
         Priority_ID,
         Status_ID,
-        location_ID
+        Location_ID
     ],
     UI.PresentationVariant        : {SortOrder: [{
         $Type     : 'Common.SortOrderType',
@@ -88,27 +82,33 @@ annotate CatalogService.Incidents with @(
         // },
         {
             $Type: 'UI.DataField',
-            Value: title
+            Value: title,
+            Label: 'Title'
         },
         {
             $Type: 'UI.DataField',
-            Value: category_ID
+            Value: category_ID,
+            Label: 'Category'
         },
         {
             $Type: 'UI.DataField',
-            Value: Priority_ID
+            Value: Priority_ID,
+            Label: 'Priority'
         },
         {
             $Type: 'UI.DataField',
             Value: Status_ID,
+            Label: 'Status'
         },
         {
             $Type: 'UI.DataField',
-            Value: location_ID
+            Value: Location_ID,
+            Label: 'Location'
         },
         {
             $Type: 'UI.DataField',
-            Value: observation_ID
+            Value: Observation_ID,
+            Label: 'Observation'
         },
         {
             $Type: 'UI.DataField',
@@ -116,8 +116,11 @@ annotate CatalogService.Incidents with @(
         },
         {
             $Type: 'UI.DataField',
-            Value: Date_Time
+            Value: Date_Time,
+            Label: 'Date Time'
+            
         }
+        
 
 
     ],
@@ -135,22 +138,27 @@ annotate CatalogService.Incidents with @(
             {
                 $Type: 'UI.DataField',
                 Value: category_ID,
+                Label: 'Category'
             },
             {
                 $Type: 'UI.DataField',
                 Value: Priority_ID,
+                Label: 'Priority'
             },
             {
                 $Type: 'UI.DataField',
-                Value: Status_ID
+                Value: Status_ID,
+                Label: 'Status'
             },
             {
                 $Type: 'UI.DataField',
-                Value: location_ID,
+                Value: Location_ID,
+                Label: 'Location'
             },
             {
                 $Type: 'UI.DataField',
-                Value: observation_ID,
+                Value: Observation_ID,
+                Label: 'Observation'
             },
             {
                 $Type: 'UI.DataField',
@@ -159,7 +167,7 @@ annotate CatalogService.Incidents with @(
             {
                 $Type: 'UI.DataField',
                 Value: Date_Time,
-            },
+            }
         ],
     },
     UI.Facets                     : [{
@@ -245,14 +253,14 @@ annotate CatalogService.Incidents with {
 };
 
 annotate CatalogService.Incidents with {
-    location @(
+    Location @(
         Common.ValueList               : {
             $Type         : 'Common.ValueListType',
             CollectionPath: 'location',
             Parameters    : [
                 {
                     $Type            : 'Common.ValueListParameterInOut',
-                    LocalDataProperty: location_ID,
+                    LocalDataProperty: Location_ID,
                     ValueListProperty: 'ID',
                 },
                 {
@@ -275,8 +283,8 @@ annotate CatalogService.location with {
 };
 
 annotate CatalogService.Incidents with {
-    location @Common.Text: {
-        $value                : location.LName,
+    Location @Common.Text: {
+        $value                : Location.LName,
         ![@UI.TextArrangement]: #TextOnly,
     }
 };
@@ -319,14 +327,14 @@ annotate CatalogService.Incidents with {
 };
 
 annotate CatalogService.Incidents with {
-    observation @(
+    Observation @(
         Common.ValueList               : {
             $Type         : 'Common.ValueListType',
             CollectionPath: 'observation',
             Parameters    : [
                 {
                     $Type            : 'Common.ValueListParameterInOut',
-                    LocalDataProperty: observation_ID,
+                    LocalDataProperty: Observation_ID,
                     ValueListProperty: 'ID',
                 },
                 {
@@ -349,17 +357,18 @@ annotate CatalogService.observation with {
 };
 
 annotate CatalogService.Incidents with {
-    observation @Common.Text: {
-        $value                : observation.OName,
+    Observation @Common.Text: {
+        $value                : Observation.OName,
         ![@UI.TextArrangement]: #TextOnly,
     }
 };
 
+
 ```
 <br>
 
-4. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>
-![Start Template](../2_Create%20CAP%20Based%20Application/images/17.png)<br>
+4. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>
+![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/5.png)<br>
 
 5. Run <b>cds build/all</b> command and press enter 
 
@@ -376,86 +385,31 @@ cds deploy --to hana
 ```
 
 7. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>
-![Start Template](../2_Create%20CAP%20Based%20Application/images/26.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/27.png)<br> 
+![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/20.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/25.png)<br> 
 
-8. Open <b>mta archives</b> folder inside that <b>Project_name.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
-![Start Template](../2_Create%20CAP%20Based%20Application/images/28.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/29.png)<br> 
+8. Open <b>mta archives</b> folder inside that <b>IMS_Fullstack.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
+![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/21.png)<br> <br>
 
-9. After Deployment of project you will get service link as shown in below<br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/31.png)<br>
+9. Run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
 
-10. Now your application is successfully deployed. 
+```
+cds watch --profile hybrid
 
-## Create SAP Fiori Application <a name="FioriApp"></a>
+```
+ <br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/19.png)<br>
 
-1. Go to your Bussiness Application Studio (BAS). and click on menu icon.
-<br>
+ 10. Now you will receive a pop up of <b>A service is listing to port 4004</b> Click on <b>Open New Tab</b>. 
+<br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/17.png)<br><br>
 
-![03](./images//18.png)
+ 11. You will redirected to new tab Click on Web Application link as shown below
+<br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/20.png)<br><br>
 
-After that you can select <b> Help </b> and then select <b> Get Started </b> 
-<br>
-![03](./images//19.png)
 
-2. Select <b>Start from template.</b>
-<br>
+12. Now your application is successfully Created Enhanced Foiri App. 
 
-![03](./images//08.png)
 
-3. Select <b>SAP Fiori Application</b> and click on <b>Start</b>.
-<br>
-
-![03](./images//04.png)
-
-4. Select <b>List Report Page</b> and click on <b>Next</b>.
-<br><br>
-
-![03](./images//05.png)
-
-5. Select <b> Connect to a system </b> in <b> Data Source </b> Select <b> Your project </b> in <b> System</b> and Give <b> /catlog </b> in your <b> Service path</b> <br>
-For example : https://crave-infotech-workshop-sap-build-9w562br3-dev-ims-full75303b83.cfapps.eu10-004.hana.ondemand.com/catalog/Incidents <b> /catalog </b> is your sevice path in above example. and click on <b>Next</b>.
-<br>
-
-![03](./images//09.png)
-
-6. Select your main entity which you want to show in list page in <b>Main Entity</b> and click on <b>Next</b>.
-<br>
-
-![03](./images//10.png)
-
-7.  Give module name as your project name.<b>Module name</b>.<br>
-- note: Module name should be <b>lowercase</b> and without space.<br>
-and choose the option as shown in below and click on <b>Next</b>.
-<br>
-
-![03](./images//11.png)
-<br>
-- For deployment configuration of MTA project choose "<b>Yes</b>"
-- For adding FLP Configuration choose "<b>Yes</b>" otherwise you can choose "<b>No</b>"
-- We don't require advance configuration so choose "<b>No</b>"
-
-![03](./images//12.png)
-
-8. Plese choose target as <b>Cloud Foundry</b> and choose destination as shown below and click on <b>Finish</b>.
-<br>
-
-![03](./images//13.png)
-
-9. We successfully created <b>SAP Fiori Application</b>.<br>
-Click on <b>Preview Application</b>.
-<br>
-
-![03](./images//15.png)
-
-10. Select the <b>start-noflp fiori run</b> option from the list, as shown given below.
-<br>
-
-![03](./images//16.png)
-
-11. Here we can see the  SAP Fiori Application. 
-<br>
-
- ![Login Page](/exercises/1_Setup%20BAS%20and%20Create%20SPACE/images/FinalOverview.png)
+ ![Login Page](../4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png)
 
 ## Summary <a name="summary"></a>
 
-You have now created SAP Fiori Application using destination.
+You have now created SAP Fiori Application .
