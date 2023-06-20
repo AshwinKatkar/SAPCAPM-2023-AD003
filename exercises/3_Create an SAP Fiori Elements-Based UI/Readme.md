@@ -50,19 +50,21 @@ Select Destination name which you have created, and click on <b>Next</b> button.
 click on <b>Finish button.</b>
 <br><br>![Image](./images/09.png)
 
-8. Now <b>SAP Fiori Elements-Based UI</b> is created.
-Then, Expand App folder and right click on project name as shown below then select <b> Preview Application </b>
+9. Right Click on <b>IMS_Fullstack</b>, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/18.png)<br>
 
-<br><br>![Image](./images/14.png)
-<br>
+10. The terminal will open in the bottom right of the Business Application studio  run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
 
- 9. Click on  <b> Web Application link as shown below </b> is ready. 
-<br><br>
+```
+cds watch --profile hybrid
 
-<br><br>![Image](./images/15.png)
+```
+ <br>![Start Template](images/19.png)<br>
 
- 10. <b>SAP Fiori Elements-Based UI</b>. 
-<br><br>
+ 11. Now you will receive a pop up of <b>A service is listing to port 4004</b> Click on <b>Open New Tab</b>. 
+<br><br>![Start Template](images/17.png)<br><br>
+
+ 12. You will redirected to new tab Click on Web Application link as shown below
+<br><br>![Start Template](images/20.png)
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 
