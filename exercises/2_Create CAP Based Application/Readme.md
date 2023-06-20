@@ -23,7 +23,7 @@ Select all check boxes given below and click on <b>Finish</b> button. <br><br>![
 1. Now, to create a table go to <b>db</b> folder and click on <b>data-model.cds</b> replace the code and you can refer below code to create a table as shown in below, here we use <b>entity<b> keyword to create a table followed by table name Incident <br><br>![Start Template](images/exc2/3.png)<br> 
 
 ```
-namespace my.IMS_Fullstack;
+namespace my.Incident_Management;
 
 using {managed} from '@sap/cds/common';
 
@@ -70,7 +70,7 @@ entity observation {
 Go to <b>srv</b> folder and click on <b>cat-service.cds</b> and write the following code <br><br>![Start Template](images/exc2/4.png)<br>
 
 ```
-using my.IMS_Fullstack as ims from '../db/data-model';
+using my.Incident_Management as ims from '../db/data-model';
 
 service CatalogService {
 
