@@ -7,7 +7,7 @@
 
 In this exercise you will learn:
 
-- How to Create SAP Fiori Application.
+- How to enhance SAP Fiori Elements Application.
 
 ### Create Fiori App using cds annotation <a name="annotation"></a>
 
