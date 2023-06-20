@@ -7,11 +7,12 @@
 
 In this exercise you will learn:
 
-- How to enhance SAP Fiori Elements Application.
+- How to enhance SAP Fiori Elements Application in existing CAP Project.<br><br>
+![Login Page](../4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png)
 
-### Create Fiori App using cds annotation <a name="annotation"></a>
+### Build Fiori App using cds annotation <a name="annotation"></a>
 
-1. Now to add annotation open app->incidentmanagement->webapp->i18n inside  <b>i18n</b> folder open <b>i8n.properties</b> file andreplace previous code with below code as shown below <br><br>
+1. Now to add annotation open app-->incidentmanagement-->webapp-->i18n inside  <b>i18n</b> folder open <b>i8n.properties</b> file and replace previous code with below code as shown below <br><br>
 
 ```
 #Common Fields
@@ -371,9 +372,9 @@ annotate CatalogService.Incidents with {
 cds build/all
 
 ```
-<br> ![Start Template](./images/23.png)<br>
+<br> ![Start Template](./images/23.png)<br><br>
 
-5. Build sucessfully completed <br><br> ![Start Template](./images/24.png)<br>
+5. After sucessfully completion of build command we can able to see <b>build completed</b> as shown in image <br><br> ![Start Template](./images/24.png)<br>
 
 6. Run <b>cds deploy --to hana</b> command and press enter <br>
 
@@ -383,7 +384,7 @@ cds deploy --to hana
 ```
 <br> ![Start Template](./images/25.png)<br>
 
-7. Project deploy sucessfully <br><br> ![Start Template](./images/26.png)<br>
+7.  After sucessfully completion of deploy command we can able to see <b>done</b> as shown in image <br><br> ![Start Template](./images/26.png)<br>
 
 
 8. Run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
@@ -397,11 +398,11 @@ cds watch --profile hybrid
  9. Now you will receive a pop up of <b>A service is listing to port 4004</b> Click on <b>Open New Tab</b>. 
 <br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/17.png)<br><br>
 
- 10. You will redirected to new tab Click on Web Application link as shown below
+ 10. Click on Web Application link as shown below ,you will redirected to new tab <br>
+ <b>Note</b>: If below window is already opened you can skip  8 and 9 step.Refresh the page and Click on highlighted WebLink.
 <br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/20.png)<br><br>
 
-
-11. Now your application is successfully Created Enhanced Foiri App. 
+11. Now your application is successfully Created Enhanced SAP Foiri Application . 
 
 
  ![Login Page](../4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png)

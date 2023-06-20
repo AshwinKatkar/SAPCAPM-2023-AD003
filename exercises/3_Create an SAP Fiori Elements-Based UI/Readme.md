@@ -50,9 +50,12 @@ Select Destination name as <b>None</b>, and click on <b>Next</b> button.
 click on <b>Finish button.</b>
 <br><br>![Image](./images/09.png)
 
-9. Right Click on <b>IMS_Fullstack</b>, select <b>Open in integrated Terminal</b>. <br><br>![Start Template](images/18.png)<br><br>
+9. After SAP Fiori Setup Completion we can able to see Application information window as shown below close that screen  <br><br>![Image](./images/21.png)
 
-10. The terminal will open in the bottom right of the Business Application studio  run  <b>cds watch --profile hybrid</b>  command and press enter.<br>
+10. Right Click on <b>IMS_Fullstack</b>, select <b>Open in integrated Terminal</b>. <br><br>![Start Template](images/18.png)<br><br>
+
+11. The terminal will open in the bottom right of the Business Application studio  run  <b>cds watch --profile hybrid</b>  command and press enter.<br>
+<b> </b>
 
 ```
 cds watch --profile hybrid
@@ -60,13 +63,13 @@ cds watch --profile hybrid
 ```
  <br>![Start Template](images/19.png)<br><br>
 
- 11. Now you will receive a pop up of <b>A service is listing to port 4004</b>  Click on <b>Open in a New Tab</b>. 
+12. Now you will receive a pop up of <b>A service is listing to port 4004</b>  Click on <b>Open in a New Tab</b>. 
 <br><br>![Start Template](images/17.png)<br><br>
 
- 12. You will redirected to new tab Click on Web Application link as shown below.
+13. You will redirected to new tab Click on Web Application link as shown below.
 <br><br>![Start Template](images/20.png)<br><br>
 
-13. You will see Standard Fiori Application which is sucessfully created.
+14. You will see Standard Fiori Application which is sucessfully created.
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 
