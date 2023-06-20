@@ -9,9 +9,9 @@ In this exercise you will learn:
 
 - How to Create SAP Fiori Application.
 
-### Create annotation in CAP Project <a name="annotation"></a>
+### Create Fiori App using cds annotation <a name="annotation"></a>
 
-1. Now to add annotation open app->incidentmanagement->webapp->i18n inside<b>i18n</b> folder open <b>i8n.properties</b> file and replace code as shown in below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/15.png)<br>
+1. Now to add annotation open app->incidentmanagement->webapp->i18n inside  <b>i18n</b> folder open <b>i8n.properties</b> file and replace code as shown in below <br><br>
 
 ```
 #Common Fields
@@ -37,8 +37,9 @@ Date_Time = Date Time
 
 ```
 <br>
+  <br> ![Start Template](./images/21.png)<br>
 
-2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
+2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br>
 
 ```
 using CatalogService from '../../srv/cat-service';
@@ -365,7 +366,7 @@ annotate CatalogService.Incidents with {
 
 
 ```
-<br>
+<br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
 
 4. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/5.png)<br>
