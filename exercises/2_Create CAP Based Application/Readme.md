@@ -75,12 +75,7 @@ using my.IMS_Fullstack as ims from '../db/data-model';
 
 service CatalogService {
 
-entity Incidents as projection on ims.Incidents; //{
-    // *,
-    // //T0.Incident_Status,
-    // T0.Status.ID as IS_ID,
-    // T0.Status.SName as SName
-//};
+entity Incidents as projection on ims.Incidents; 
 annotate Incidents with @odata.draft.enabled;
 @odata.draft.enabled
 entity Status as projection on ims.Status;
