@@ -38,7 +38,7 @@ Date_Time = Date Time
 ```
 <br><br> ![Start Template](./images/21.png)<br>
 
-2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
+2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br><br>![Start Template](./images/20.png)<br>
 
 ```
 using CatalogService from '../../srv/cat-service';
