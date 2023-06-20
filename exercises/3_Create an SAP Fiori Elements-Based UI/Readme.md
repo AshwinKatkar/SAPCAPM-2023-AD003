@@ -37,36 +37,36 @@ Choose radio button as shown in below.
 Click on <b>Next</b> button.
 <br><br>![Image](./images/06.png)<br><br>
 
-- For deployment configuration of MTA project choose "<b>Yes</b>"
-- For adding FLP Configuration choose "<b>Yes</b>" otherwise you can choose "<b>No</b>"
-- We don't require advance configuration so choose "<b>No</b>"
+- For deployment configuration of MTA project choose "<b>Yes</b>".
+- For adding FLP Configuration choose "<b>Yes</b>" otherwise you can choose "<b>No</b>".
+- We don't require advance configuration so choose "<b>No</b>".
 <br><br>![Image](./images/07.png)
 
 7. Choose the target as <b>Cloud Foundry</b> for your deployment configuration.<br>
 Select Destination name as <b>None</b>, and click on <b>Next</b> button.
 <br><br>![Image](./images/8.png)
 
-8. Give semantic object , Give <b>manage</b> in Action field , Give <b> Application title</b> in title field. And subtitle is optional you can give if you want.
+8. Give <b>incidentmanagement</b> in semantic object field , Give <b>manage</b> in Action field , Give <b>Incident_Management</b> in title field. And subtitle is optional you can give if you want.
 click on <b>Finish button.</b>
 <br><br>![Image](./images/09.png)
 
-9. Right Click on <b>IMS_Fullstack</b>, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/18.png)<br>
+9. Right Click on <b>IMS_Fullstack</b>, select <b>Open in integrated Terminal</b>. <br><br>![Start Template](images/18.png)<br><br>
 
-10. The terminal will open in the bottom right of the Business Application studio  run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
+10. The terminal will open in the bottom right of the Business Application studio  run  <b>cds watch --profile hybrid</b>  command and press enter.<br>
 
 ```
 cds watch --profile hybrid
 
 ```
- <br>![Start Template](images/19.png)<br>
+ <br>![Start Template](images/19.png)<br><br>
 
- 11. Now you will receive a pop up of <b>A service is listing to port 4004</b> Click on <b>Open New Tab</b>. 
+ 11. Now you will receive a pop up of <b>A service is listing to port 4004</b>  Click on <b>Open in a New Tab</b>. 
 <br><br>![Start Template](images/17.png)<br><br>
 
- 12. You will redirected to new tab Click on Web Application link as shown below
+ 12. You will redirected to new tab Click on Web Application link as shown below.
 <br><br>![Start Template](images/20.png)<br><br>
 
-13. Now we have sucessfully created Fiori Application
+13. You will see Standard Fiori Application which is sucessfully created.
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 
