@@ -33,8 +33,8 @@ entity Incidents : managed {
         category    : Association to one category;
         Priority    : Association to one Priority;
         Status      : Association to one Status;
-        location    : Association to one location;
-        observation : Association to one observation;
+        Location    : Association to one location;
+        Observation : Association to one observation;
         Address     : String(100);
         Date_Time   : DateTime @cds.on.insert: $now;
 };
@@ -63,7 +63,6 @@ entity observation {
     key ID    : Integer;
         OName : String(50);
 };
-
 ```
 <br>
 
@@ -88,6 +87,7 @@ entity category as projection on ims.category;
 @odata.draft.enabled
 entity observation as projection on ims.observation;
 }
+
 
 ```
 <br>
