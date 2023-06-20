@@ -6,7 +6,7 @@
 
 ### Overview <a name="section1"></a>
 
-In this exercise, we will create UI from local CAP project for SAP Fiori Element.
+In this exercise, we will create UI from local CAP project using SAP Fiori Elements.
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 
