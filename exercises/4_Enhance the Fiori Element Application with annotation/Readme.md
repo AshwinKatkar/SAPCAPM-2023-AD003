@@ -36,10 +36,9 @@ Date_Time = Date Time
 
 
 ```
-<br>
-  <br> ![Start Template](./images/21.png)<br>
+<br><br> ![Start Template](./images/21.png)<br>
 
-2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br>
+2. In app folder you will find <b>annotation.cds</b> file open <b>annotation.cds</b>file and replace code as shown below <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
 
 ```
 using CatalogService from '../../srv/cat-service';
@@ -366,32 +365,32 @@ annotate CatalogService.Incidents with {
 
 
 ```
-<br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/16.png)<br>
+<br>
 
-4. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>
+3. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/5.png)<br>
 
-5. Run <b>cds build/all</b> command and press enter 
+4. Run <b>cds build/all</b> command and press enter 
 
 ```
 cds build/all
 
 ```
 
-6. Run <b>cds deploy --to hana</b> command and press enter 
+5. Run <b>cds deploy --to hana</b> command and press enter 
 
 ```
 cds deploy --to hana
 
 ```
 
-7. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>
+6. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/20.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/25.png)<br> 
 
-8. Open <b>mta archives</b> folder inside that <b>IMS_Fullstack.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
+7. Open <b>mta archives</b> folder inside that <b>IMS_Fullstack.mtar</b> file able to see  right click on that and select <b>Deploy MTA Archive</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/21.png)<br> <br>
 
-9. Run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
+8. Run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
 
 ```
 cds watch --profile hybrid
@@ -399,14 +398,14 @@ cds watch --profile hybrid
 ```
  <br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/19.png)<br>
 
- 10. Now you will receive a pop up of <b>A service is listing to port 4004</b> Click on <b>Open New Tab</b>. 
+ 9. Now you will receive a pop up of <b>A service is listing to port 4004</b> Click on <b>Open New Tab</b>. 
 <br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/17.png)<br><br>
 
- 11. You will redirected to new tab Click on Web Application link as shown below
+ 10. You will redirected to new tab Click on Web Application link as shown below
 <br><br>![Start Template](../3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/20.png)<br><br>
 
 
-12. Now your application is successfully Created Enhanced Foiri App. 
+11. Now your application is successfully Created Enhanced Foiri App. 
 
 
  ![Login Page](../4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png)
