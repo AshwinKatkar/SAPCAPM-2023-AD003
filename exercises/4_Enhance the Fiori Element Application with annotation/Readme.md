@@ -371,7 +371,7 @@ annotate CatalogService.Incidents with {
 cds build/all
 
 ```
-<br><br> ![Start Template](./images/23.png)<br>
+<br> ![Start Template](./images/23.png)<br>
 
 5. Build sucessfully completed <br><br> ![Start Template](./images/24.png)<br>
 
