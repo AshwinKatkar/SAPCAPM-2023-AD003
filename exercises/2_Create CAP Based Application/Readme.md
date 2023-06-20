@@ -1,10 +1,16 @@
 ## Table of Contents
-
+- [Overview](#section1)
 - [CAP Project Creation](#project)
 - [Table Creation](#table)
 - [Install dependencies](#install)
 - [ Database connection and project deployment](#db)
 - [Summary](#summary)
+
+### Overview <a name="section1"></a>
+
+In this exercise, we will create CAP Based Application.
+
+ <br>![Start Template](images/exc2/23.png)
 
 
 ## CAP Project Creation<a name="project"></a>
@@ -95,7 +101,7 @@ entity observation as projection on ims.observation;
 
 ## Install dependencies <a name="install"></a>
 
-1. Right Click on Project Name, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/5.png)<br>
+1. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/5.png)<br><br>
 
 2. The terminal will open in the bottom right of the Business Application studio run  <b>cf login</b>  command and press enter  <br>
 
@@ -103,37 +109,39 @@ entity observation as projection on ims.observation;
 cf login
 
 ```
- <br>![Start Template](images/exc2/6.png)<br>
+ <br>![Start Template](images/exc2/6.png)<br><br>
 
-3. Copy this link <b>https://api.cf.eu10-004.hana.ondemand.com </b> and paste in <b>API end point</b> and press enter 
+3. Copy this API link <b>https://api.cf.eu10-004.hana.ondemand.com </b> and paste in <b>API end point</b> and press enter 
 ```
 https://api.cf.eu10-004.hana.ondemand.com
 
 ```
-<br>![Start Template](images/exc2/7.png)<br>
+<br>![Start Template](images/exc2/7.png)<br><br>
 
-4. Enter your  <b>Email</b> and  <b>Password</b> and press enter <br><br>![Start Template](images/exc2/8.png)<br>
+4. Enter your  <b>Email</b> and  <b>Password</b> and press enter <br><br>![Start Template](images/exc2/8.png)<br><br>
 
-5. Run <b>npm install </b> command and press enter 
+5. Run <b>npm install </b> command and press enter <br>
+
 ```
 npm install
 
 ```
-<br>![Start Template](images/exc2/9.png)<br>
+<br>![Start Template](images/exc2/9.png)<br><br>
 
-6. After installation of npm packages run <b>cds build/all</b> command and press enter  
+6. After installation of npm packages run <b>cds build/all</b> command and press enter <br>
+
 ```
 cds build/all
 
 ```
-<br>  ![Start Template](images/exc2/10.png)<br>
+<br>  ![Start Template](images/exc2/10.png)<br><br>
 
-7. After that run <b>cds deploy --to hana</b> command and press enter
+7. After that run <b>cds deploy --to hana</b> command and press enter<br>
 ```
 cds deploy --to hana
 
 ```
-<br>![Start Template](images/exc2/11.png)<br>
+<br>![Start Template](images/exc2/11.png)<br><br>
 
 
 ## Database connection and project deployment <a name="db"></a>

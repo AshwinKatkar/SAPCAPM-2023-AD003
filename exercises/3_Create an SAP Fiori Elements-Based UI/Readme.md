@@ -1,16 +1,16 @@
 ## Table of Contents
  - [Overview](#section1)
- - [Create an SAP Fiori Elements-Based UI](#section2)
+ - [Create a SAP Fiori APP in CAP Project](#section2)
  - [Summary](#summary)
 
 
 ### Overview <a name="section1"></a>
 
-In this exercise, we will create UI from local CAP project using SAP Fiori Elements.
+In this exercise, we will setup SAP Fiori APP in existing CAP project.
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 
-## Create an SAP Fiori Elements-Based UI <a name="section2"></a>
+## Create a SAP Fiori APP in CAP Project <a name="section2"></a>
 
 1. For Creating <b>SAP Fiori Elements-Based UI </b> click on menu tab as shown in below.<br>
 then select <b>View </b> from menu and then select <b>Command Palatte. </b><br><br>![Image](./images/01.png)
@@ -73,6 +73,6 @@ cds watch --profile hybrid
 
 ## Summary<a name="summary"></a>
 
-You have now acquired <b>SAP Fiori Elements-Based UI</b>.
+You have now acquired <b>SAP Fiori App in CAP projecr</b>.
 
 Continue to - [Exercise 4 - Enhance the Fiori Element Application.](../4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/Readme.md)
