@@ -381,7 +381,7 @@ cds build/all
 cds deploy --to hana
 
 ```
-<br><br> ![Start Template](./images/25.png)<br>
+<br> ![Start Template](./images/25.png)<br>
 
 7. Project deploy sucessfully <br><br> ![Start Template](./images/26.png)<br>
 
