@@ -376,14 +376,14 @@ annotate CatalogService.Incidents with {
 cds build/all
 
 ```
-
-5. Run <b>cds deploy --to hana</b> command and press enter 
+<br><br> ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/10.png)<br>
+5. Run <b>cds deploy --to hana</b> command and press enter <br>
 
 ```
 cds deploy --to hana
 
 ```
-
+<br><br> ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/11.png)<br>
 6. Right click on <b>mta.yml</b> file  and select <b>Built MTA Project</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/20.png)<br> <br><br>![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/25.png)<br> 
 
