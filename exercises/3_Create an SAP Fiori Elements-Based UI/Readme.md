@@ -6,8 +6,8 @@
 
 ### Overview <a name="section1"></a>
 
-In this exercise you will learn:
-- How to setup SAP Fiori APP in existing CAP project.
+In this exercise you will learn, 
+- How setup SAP Fiori APP in existing CAP project.
 
  ![Login Page](/exercises/3_Create%20an%20SAP%20Fiori%20Elements-Based%20UI/images/16.png)
 

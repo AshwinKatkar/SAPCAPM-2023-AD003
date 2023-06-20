@@ -6,8 +6,7 @@
 ### Overview <a name="overview"></a>
 
 In this exercise you will learn:
-
-- How to enhance SAP Fiori Elements Application in existing CAP Project.<br><br>
+- How to enhance standard SAP Fiori  Application using cds annotation.<br><br>
 ![Login Page](../4_Enhance%20the%20Fiori%20Element%20Application%20with%20annotation/images/22.png)
 
 ### Build Fiori App using cds annotation <a name="annotation"></a>

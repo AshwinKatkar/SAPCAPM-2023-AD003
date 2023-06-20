@@ -9,7 +9,12 @@
 ### Overview <a name="section1"></a>
 
 In this exercise, you will learn:
-- How to create CAP Based Application.
+- How to setup Project in CAP.
+- How to Create tables in data-model file
+- How to give projection of created tables in cat-service.cds file 
+- How to install dependencies for project
+- How to connect database to to project
+- How to build and deploy our project to cloud. 
 
  <br>![Start Template](images/exc2/23.png)
 
