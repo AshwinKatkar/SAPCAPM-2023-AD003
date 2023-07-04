@@ -121,9 +121,9 @@ cf login --sso
 
 <br>![Start Template](images/exc2/28.png)<br><br>
 
-4. Now you will redirect to  <b>SAP Business Technology Platform</b><br> ![Start Template](images/exc2/29.png)<br><br>
+4. Now you will redirect to  <b>SAP Business Technology Platform identity provider page </b><br><br> ![Start Template](images/exc2/29.png)<br><br>
 
-5. Enter <b> a6808008-platform </b>in <b>origin key of your Identity provider</b> and press enter<br>
+5. Copy this  <b> a6808008-platform </b> and paste in <b>Enter the origin key of your Identity provider</b> field and press enter<br>
 
 ```
 a6808008-platform
