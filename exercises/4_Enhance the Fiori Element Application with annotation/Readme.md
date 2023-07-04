@@ -365,7 +365,7 @@ annotate CatalogService.Incidents with {
 3. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>
 ![Start Template](../2_Create%20CAP%20Based%20Application/images/exc2/5.png)<br>
 
-4. Run <b>cds build/all</b> command and press enter 
+4. Run <b>"cds build/all"</b> command and press enter 
 
 ```
 cds build/all
@@ -375,7 +375,7 @@ cds build/all
 
 5. After sucessfully completion of build command we can able to see <b>build completed</b> as shown in image <br><br> ![Start Template](./images/24.png)<br>
 
-6. Run <b>cds deploy --to hana</b> command and press enter <br>
+6. Run <b>"cds deploy --to hana"</b> command and press enter <br>
 
 ```
 cds deploy --to hana
@@ -386,7 +386,7 @@ cds deploy --to hana
 7.  After sucessfully completion of deploy command we can able to see <b>done</b> as shown in image <br><br> ![Start Template](./images/26.png)<br>
 
 
-8. Run  <b>cds watch --profile hybrid</b>  command and press enter  <br>
+8. Run  <b>"cds watch --profile hybrid"</b>  command and press enter  <br>
 
 ```
 cds watch --profile hybrid

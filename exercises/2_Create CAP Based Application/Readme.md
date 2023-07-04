@@ -123,7 +123,7 @@ cf login --sso
 
 4. Now you will redirect to  <b>SAP Business Technology Platform identity provider page </b><br><br> ![Start Template](images/exc2/29.png)<br><br>
 
-5. Copy this  <b> a6808008-platform </b> and paste in <b>Enter the origin key of your Identity provider</b> field and press enter<br>
+5. Copy this  <b>"a6808008-platform"</b> and paste in <b>Enter the origin key of your Identity provider</b> field and press enter<br>
 
 ```
 a6808008-platform
@@ -139,7 +139,7 @@ a6808008-platform
 
 <br>![Start Template](images/exc2/32.png)<br><br>
 
-8.  Run <b>npm install </b> command and press enter <br>
+8.  Run <b>"npm install"</b> command and press enter <br>
  
 ```
 npm install
@@ -147,7 +147,7 @@ npm install
 ```
 <br>![Start Template](images/exc2/9.png)<br><br>
 
-9.  After installation of npm packages run <b>cds build/all</b> command and press enter <br>
+9.  After installation of npm packages run <b>"cds build/all"</b> command and press enter <br>
 
 ```
 cds build/all
@@ -155,7 +155,7 @@ cds build/all
 ```
 <br>  ![Start Template](images/exc2/10.png)<br><br>
 
-10. After that run <b>cds deploy --to hana</b> command and press enter<br>
+10. After that run <b>"cds deploy --to" hana</b> command and press enter<br>
 
 ```
 cds deploy --to hana
