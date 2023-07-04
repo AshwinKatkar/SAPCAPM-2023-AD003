@@ -109,15 +109,15 @@ entity observation as projection on ims.observation;
 
 1. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/5.png)<br><br>
 
-2. The terminal will open in the bottom right of the Business Application studio run  <b>cf login --sso</b>  command and press enter  <br>
+2. The terminal will open in the bottom right of the Business Application studio run  <b>"cf login --sso"</b>  command and press enter  then Temporary Authentication Code link will be generated as shown below  Ctrl+Click on following link    <br>
 
 ```
 cf login --sso
 
 ```
- <br>![Start Template](images/exc2/27.png)<br><br>
+ <br>![Start Template](images/exc2/27_1.png)<br><br>
 
-3. After Running command you will get pop up of <strong> Do you want SAP Business Application Studio to open the external website</strong>then Click on <b>Open</b>
+3. After that you will get pop up of <strong> Do you want SAP Business Application Studio to open the external website</strong>then Click on <b>Open</b>
 
 <br>![Start Template](images/exc2/28.png)<br><br>
 
