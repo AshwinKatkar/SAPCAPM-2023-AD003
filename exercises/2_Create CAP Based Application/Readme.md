@@ -107,7 +107,7 @@ entity observation as projection on ims.observation;
 
 ## Install dependencies <a name="install"></a>
 
-1. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/27.png)<br><br>
+1. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/5.png)<br><br>
 
 2. The terminal will open in the bottom right of the Business Application studio run  <b>cf login --sso</b>  command and press enter  <br>
 
@@ -115,7 +115,7 @@ entity observation as projection on ims.observation;
 cf login --sso
 
 ```
- <br>![Start Template](images/exc2/6.png)<br><br>
+ <br>![Start Template](images/exc2/27.png)<br><br>
 
 3. After Running command you will get pop up <b>Do you want SAP Business Application Studio to open the external website</b>  Click on <b>Open</b>
 
