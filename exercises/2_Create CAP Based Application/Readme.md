@@ -107,47 +107,37 @@ entity observation as projection on ims.observation;
 
 ## Install dependencies <a name="install"></a>
 
-1. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/5.png)<br><br>
+1. Right Click on IMS_Fullstack, select <b>Open in integrated Terminal</b> <br><br>![Start Template](images/exc2/27.png)<br><br>
 
-2. The terminal will open in the bottom right of the Business Application studio run  <b>cf login</b>  command and press enter  <br>
+2. The terminal will open in the bottom right of the Business Application studio run  <b>cf login --sso</b>  command and press enter  <br>
 
 ```
-cf login
+cf login --sso
 
 ```
  <br>![Start Template](images/exc2/6.png)<br><br>
 
-3. Copy this API link <b>https://api.cf.eu10-004.hana.ondemand.com </b> and paste in <b>API end point</b> and press enter 
-```
-https://api.cf.eu10-004.hana.ondemand.com
+3. After Running command you will get pop up <b>Do you want SAP Business Application Studio to open the external website</b>  Click on <b>Open</b>
+
+<br>![Start Template](images/exc2/28.png)<br><br>
+
+4. Now you will redirect to  <b>SAP Business Technology Platform</b>[Start Template](images/exc2/29.png)<br><br>
+
+5. Enter <b> a6808008-platform </b>in <b>origin key of your Identity provider</b> and press enter<br>
 
 ```
-<br>![Start Template](images/exc2/7.png)<br><br>
-
-4. Enter your  <b>Email</b> and  <b>Password</b> and press enter <br><br>![Start Template](images/exc2/8.png)<br><br>
-
-5. Run <b>npm install </b> command and press enter <br>
+a6808008-platform
 
 ```
-npm install
+<br>![Start Template](images/exc2/30.png)<br><br>
 
-```
-<br>![Start Template](images/exc2/9.png)<br><br>
+6. After that you will redirect to <b>Temporary Authentication Code</b> copy that code<br>
 
-6. After installation of npm packages run <b>cds build/all</b> command and press enter <br>
+<br>  ![Start Template](images/exc2/31.png)<br><br>
 
-```
-cds build/all
+7. Paste as shown in below image <br>
 
-```
-<br>  ![Start Template](images/exc2/10.png)<br><br>
-
-7. After that run <b>cds deploy --to hana</b> command and press enter<br>
-```
-cds deploy --to hana
-
-```
-<br>![Start Template](images/exc2/11.png)<br><br>
+<br>![Start Template](images/exc2/32.png)<br><br>
 
 
 ## Database connection and project deployment <a name="db"></a>
