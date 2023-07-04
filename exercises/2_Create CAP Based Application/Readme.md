@@ -117,11 +117,11 @@ cf login --sso
 ```
  <br>![Start Template](images/exc2/27.png)<br><br>
 
-3. After Running command you will get pop up <b>Do you want SAP Business Application Studio to open the external website</b>  Click on <b>Open</b>
+3. After Running command you will get pop up of <strong> Do you want SAP Business Application Studio to open the external website</strong>then Click on <b>Open</b>
 
 <br>![Start Template](images/exc2/28.png)<br><br>
 
-4. Now you will redirect to  <b>SAP Business Technology Platform</b>[Start Template](images/exc2/29.png)<br><br>
+4. Now you will redirect to  <b>SAP Business Technology Platform</b><br> ![Start Template](images/exc2/29.png)<br><br>
 
 5. Enter <b> a6808008-platform </b>in <b>origin key of your Identity provider</b> and press enter<br>
 
@@ -135,10 +135,33 @@ a6808008-platform
 
 <br>  ![Start Template](images/exc2/31.png)<br><br>
 
-7. Paste as shown in below image <br>
+7. Paste the generated Authentication Code as shown in below image <br>
 
 <br>![Start Template](images/exc2/32.png)<br><br>
 
+8.  Run <b>npm install </b> command and press enter <br>
+ 
+```
+npm install
+
+```
+<br>![Start Template](images/exc2/9.png)<br><br>
+
+9.  After installation of npm packages run <b>cds build/all</b> command and press enter <br>
+
+```
+cds build/all
+
+```
+<br>  ![Start Template](images/exc2/10.png)<br><br>
+
+10. After that run <b>cds deploy --to hana</b> command and press enter<br>
+
+```
+cds deploy --to hana
+
+```
+<br>![Start Template](images/exc2/11.png)<br><br>
 
 ## Database connection and project deployment <a name="db"></a>
 
